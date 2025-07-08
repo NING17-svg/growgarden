@@ -80,6 +80,8 @@ export default function RootLayout({
                 <li><Link href="/crops" className="text-gray-300 hover:text-white">Plants Tier List</Link></li>
                 <li><Link href="/pets" className="text-gray-300 hover:text-white">Pet Tier List</Link></li>
                 <li><Link href="/calculator" className="text-gray-300 hover:text-white">Fruit Value Calculator</Link></li>
+                <li><Link href="/privacy-policy" className="text-gray-300 hover:text-white">Privacy Policy</Link></li>
+                <li><Link href="/terms-of-service" className="text-gray-300 hover:text-white">Terms of Service</Link></li>
               </ul>
             </div>
             <div>
