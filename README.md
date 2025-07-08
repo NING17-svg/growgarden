@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# growgarden.run 网站
 
-## Getting Started
+## 项目概述
 
-First, run the development server:
+本项目旨在为 Roblox 游戏"Grow a Garden"创建一个全面的攻略网站。主要目标是通过提供高质量的游戏指南和有价值的内容来吸引游戏特定流量，最终通过 Google AdSense 实现盈利。我们采用"内容为王"策略，优先发布文字攻略获取流量，后续逐步完善数据驱动功能。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 目标受众
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+"Grow a Garden"Roblox 游戏的玩家，从寻求基本指导的新手玩家到寻求深入数据和高级策略的经验丰富的玩家。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 内容策略与SEO优先级
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+我们的内容发布策略以SEO为核心，采用以下优先级：
 
-## Learn More
+1. **优质文字攻略优先** - 创建并发布深度攻略文章（1200词以上），覆盖玩家最需要的游戏内容
+2. **关键词研究驱动内容** - 根据游戏相关关键词分析创建内容，满足搜索需求
+3. **循序渐进实施功能** - 从基础文字内容开始，逐步增加交互功能和数据库
 
-To learn more about Next.js, take a look at the following resources:
+### 文字攻略优先内容（MVP阶段）
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+*   **新手指南：** 基本机制、初始设置、早期游戏进程（1200+词）
+*   **作物变异攻略：** 详细解析变异机制、条件和提高变异几率的技巧（1200+词）
+*   **宠物系统深入解析：** 宠物获取、能力和最佳宠物组合（1200+词）
+*   **高效赚钱策略：** 最大化"Sheckles"（游戏内货币）收入的方法（1200+词）
+*   **高级玩家策略：** 针对有经验玩家的优化技巧和策略（1200+词）
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 数据驱动功能（迭代阶段）
 
-## Deploy on Vercel
+*   **交互式数据库：**
+    *   **作物数据库：** 可搜索和过滤的表格，包含详细的作物统计数据（生长周期、销售价格、变异类型等）。
+    *   **宠物数据库：** 宠物的全面列表，包括它们的稀有度、被动能力和蛋的来源。
+    *   **装备数据库：** 游戏内所有装备的目录，它们的效果以及在哪里可以获得它们。
+*   **实用工具：**
+    *   **Sheckles 计算器：** 一个交互式工具，根据作物、宠物和装备估算潜在收益。
+    *   **变异预测器：** 一个帮助玩家了解变异条件和概率的工具。
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 技术栈
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*   **前端框架：** Next.js (React)
+    *   选择它的原因是其出色的性能、SEO 能力（服务器端渲染/静态站点生成）和开发者体验。
+*   **数据库：** Supabase (后期迭代)
+    *   一个强大的开源 Firebase 替代方案，提供 PostgreSQL 数据库、身份验证和实时订阅。非常适合结构化游戏数据。
+*   **存储：** Cloudflare R2 (后期迭代)
+    *   用于托管静态资产（如作物图标、宠物图片、装备视觉效果）的存储解决方案，具有成本效益和全球分发能力。
+
+## SEO优化重点
+
+*   **页面结构优化：** 每篇攻略采用合理的H1-H6标题结构，方便搜索引擎理解内容层级
+*   **内部链接策略：** 文章间互相链接，增强网站权威性和用户停留时间
+*   **图文并茂：** 适当使用游戏截图增强内容吸引力和可读性
+*   **技术SEO：** 实现sitemap.xml、robots.txt和结构化数据标记
+*   **移动端优化：** 确保网站在移动设备上有良好的用户体验
+*   **页面加载速度：** 优化资源加载，提升页面性能
+
+## 开发计划（分阶段）
+
+### MVP阶段 - 内容优先
+1. **基础网站搭建：**
+   * 初始化 Next.js 项目
+   * 创建基本页面结构和导航
+   * 实现攻略页面和基础SEO配置
+2. **核心内容创作：**
+   * 开发5-10篇高质量攻略文章（每篇1200词以上）
+   * 优化内容结构和关键词分布
+3. **部署与监测：**
+   * 部署到Vercel并设置域名
+   * 配置Google Analytics和AdSense
+   * 提交网站到Google Search Console
+
+### 迭代阶段 - 功能扩展
+1. **数据库集成：**
+   * 配置Supabase数据库
+   * 开发作物、宠物数据模型
+2. **交互功能开发：**
+   * 实现数据搜索和过滤功能
+   * 开发Sheckles计算器等实用工具
+3. **媒体资源整合：**
+   * 配置R2存储并上传图片资源
+   * 为数据库条目添加视觉元素
+
+## 内容生成策略
+
+我们将采用AI辅助与人工监督相结合的方法生成高质量内容：
+
+1. **数据获取：**
+   * 从官方Wiki、Reddit和Discord社区获取准确游戏信息
+   * 亲身游戏体验，获取第一手资料
+2. **内容创作流程：**
+   * 根据关键词研究确定内容主题
+   * 利用AI辅助生成初稿框架
+   * 人工编辑完善内容，确保准确性和可读性
+   * 优化SEO元素，包括标题、元描述和内部链接
+3. **持续更新：**
+   * 根据分析数据识别内容缺口
+   * 跟踪游戏更新，及时更新相关内容
