@@ -194,8 +194,17 @@ export default function Home() {
           <p className="text-center text-gray-600 mb-6 md:mb-8 text-sm md:text-base">Check out our most recent guides and tutorials</p>
           <div className="space-y-5 md:space-y-6 max-w-4xl mx-auto">
             <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300">
+              <h3 className="text-xl md:text-2xl font-semibold mb-2">Beginner's Guide to Grow a Garden</h3>
+              <p className="text-gray-500 mb-3 md:mb-4 text-sm md:text-base">Published: July 8, 2025</p>
+              <p className="mb-3 md:mb-4 text-sm md:text-base text-gray-600">
+                New to Grow a Garden? This comprehensive guide covers all the basics you need to know to get started, including initial setup, understanding core mechanics, and tips for your first harvest.
+              </p>
+              <a href="/guides/beginners-guide" className="text-blue-600 hover:underline font-medium text-sm md:text-base">Read More →</a>
+            </div>
+            
+            <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300">
               <h3 className="text-xl md:text-2xl font-semibold mb-2">Paradise Egg Guide</h3>
-              <p className="text-gray-500 mb-3 md:mb-4 text-sm md:text-base">Published: June 27, 2023</p>
+              <p className="text-gray-500 mb-3 md:mb-4 text-sm md:text-base">Published: June 27, 2025</p>
               <p className="mb-3 md:mb-4 text-sm md:text-base text-gray-600">
                 Learn everything about the Paradise Egg, how to obtain it, what pets you can hatch from it, and strategies for maximizing your chances.
               </p>
@@ -204,20 +213,11 @@ export default function Home() {
             
             <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300">
               <h3 className="text-xl md:text-2xl font-semibold mb-2">Anti Bee Egg Guide</h3>
-              <p className="text-gray-500 mb-3 md:mb-4 text-sm md:text-base">Published: June 13, 2023</p>
+              <p className="text-gray-500 mb-3 md:mb-4 text-sm md:text-base">Published: June 13, 2025</p>
               <p className="mb-3 md:mb-4 text-sm md:text-base text-gray-600">
                 Discover the secrets of the Anti Bee Egg, its unique properties, and the special pets it contains.
               </p>
               <a href="/guides/anti-bee-egg" className="text-blue-600 hover:underline font-medium text-sm md:text-base">Read More →</a>
-            </div>
-            
-            <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300">
-              <h3 className="text-xl md:text-2xl font-semibold mb-2">Bug Egg Guide</h3>
-              <p className="text-gray-500 mb-3 md:mb-4 text-sm md:text-base">Published: June 12, 2023</p>
-              <p className="mb-3 md:mb-4 text-sm md:text-base text-gray-600">
-                Everything you need to know about the Bug Egg, including where to find it, what pets you can get, and their special abilities.
-              </p>
-              <a href="/guides/bug-egg" className="text-blue-600 hover:underline font-medium text-sm md:text-base">Read More →</a>
             </div>
           </div>
         </div>
