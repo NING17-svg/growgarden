@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from 'next/link';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,18 +45,18 @@ export default function RootLayout({
       >
         <header className="bg-green-600 text-white p-4 shadow-md">
           <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center">
-            <a href="/" className="text-2xl font-bold mb-2 sm:mb-0 flex items-center">
+            <Link href="/" className="text-2xl font-bold mb-2 sm:mb-0 flex items-center">
               <span className="text-yellow-300">Grow</span> 
               <span className="text-red-500 mx-1">A</span> 
               <span className="text-green-300">Garden</span>
-            </a>
+            </Link>
             <nav>
               <ul className="flex space-x-4">
-                <li><a href="/crops" className="hover:underline">Plants</a></li>
-                <li><a href="/pets" className="hover:underline">Pets</a></li>
-                <li><a href="/guides" className="hover:underline">Guides</a></li>
-                <li><a href="/calculator" className="hover:underline">Calculator</a></li>
-                <li><a href="/codes" className="hover:underline">Codes</a></li>
+                <li><Link href="/crops" className="hover:underline">Plants</Link></li>
+                <li><Link href="/pets" className="hover:underline">Pets</Link></li>
+                <li><Link href="/guides" className="hover:underline">Guides</Link></li>
+                <li><Link href="/calculator" className="hover:underline">Calculator</Link></li>
+                <li><Link href="/codes" className="hover:underline">Codes</Link></li>
               </ul>
             </nav>
           </div>
@@ -74,9 +75,9 @@ export default function RootLayout({
             <div>
               <h3 className="text-lg font-bold mb-3">Pages</h3>
               <ul className="space-y-2">
-                <li><a href="/crops" className="text-gray-300 hover:text-white">Plants Tier List</a></li>
-                <li><a href="/pets" className="text-gray-300 hover:text-white">Pet Tier List</a></li>
-                <li><a href="/calculator" className="text-gray-300 hover:text-white">Fruit Value Calculator</a></li>
+                <li><Link href="/crops" className="text-gray-300 hover:text-white">Plants Tier List</Link></li>
+                <li><Link href="/pets" className="text-gray-300 hover:text-white">Pet Tier List</Link></li>
+                <li><Link href="/calculator" className="text-gray-300 hover:text-white">Fruit Value Calculator</Link></li>
               </ul>
             </div>
             <div>
@@ -88,7 +89,7 @@ export default function RootLayout({
           </div>
           <div className="container mx-auto mt-6 pt-6 border-t border-gray-700 text-center text-sm text-gray-400">
             <p>© {new Date().getFullYear()} Grow A Garden | growgarden.run</p>
-            <p className="mt-1">This site is not officially affiliated with Grow A Garden, it's a fanmade tool.</p>
+            <p className="mt-1">This site is not officially affiliated with Grow A Garden, it&apos;s a fanmade tool.</p>
           </div>
         </footer>
       </body>

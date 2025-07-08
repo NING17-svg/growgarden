@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from 'next/link';
 
 // 首页组件
 export default function Home() {
@@ -10,29 +10,29 @@ export default function Home() {
           <div className="text-center mb-8">
             {/* 游戏Logo样式，参考图片 */}
             <h1 className="text-4xl md:text-6xl font-bold mb-4 md:mb-6 text-center">
-              <span className="text-green-600">GROW</span> 
-              <span className="text-red-500 mx-1 md:mx-2">A</span> 
+              <span className="text-green-600">GROW</span>
+              <span className="text-red-500 mx-1 md:mx-2">A</span>
               <span className="text-green-600">GARDEN</span>
             </h1>
             <p className="text-xl md:text-2xl mb-6 md:mb-8 max-w-2xl mx-auto px-2">
               The ultimate guide to the popular Roblox farming simulation game
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-3 md:gap-4 mt-4 md:mt-6">
-              <a 
-                href="/guides" 
+              <Link
+                href="/guides"
                 className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 md:py-3 px-4 md:px-6 rounded-lg transition duration-300 text-center mb-3 sm:mb-0"
               >
                 Browse Guides
-              </a>
-              <a 
-                href="/calculator" 
+              </Link>
+              <Link
+                href="/calculator"
                 className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 md:py-3 px-4 md:px-6 rounded-lg transition duration-300 text-center"
               >
                 Value Calculator
-              </a>
+              </Link>
             </div>
           </div>
-          
+
           {/* 装饰性图像元素 - 模拟游戏中的水果/植物 */}
           <div className="relative w-full max-w-4xl h-16 md:h-24 mt-6 md:mt-8 hidden sm:block">
             <div className="absolute -top-16 right-12 transform rotate-12 w-12 md:w-16 h-12 md:h-16 bg-red-500 rounded-full opacity-80"></div>
@@ -55,7 +55,7 @@ export default function Home() {
               As a player, you start your journey with a small piece of land. Plant seeds, water them, and watch them grow into beautiful flowers, fruits, and vegetables. From carrot fields to strawberry bushes, every crop you plant brings you closer to building a royal farm.
             </p>
             <p className="text-base md:text-lg mb-4 md:mb-6">
-              To advance from a novice gardener to an award-worthy expert, you need to induce mutations in your crops to enhance their value. Mutations can occur randomly, and they are key factors that can make you a millionaire (or even a billionaire). Weather events like snow can increase your chances of achieving the "snowy" mutation, while equipment and pets can affect crop growth speed, value, and more.
+              To advance from a novice gardener to an award-worthy expert, you need to induce mutations in your crops to enhance their value. Mutations can occur randomly, and they are key factors that can make you a millionaire (or even a billionaire). Weather events like snow can increase your chances of achieving the &quot;snowy&quot; mutation, while equipment and pets can affect crop growth speed, value, and more.
             </p>
           </div>
         </div>
@@ -96,40 +96,40 @@ export default function Home() {
               </div>
               <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3 text-center">Easy and Fun</h3>
               <p className="text-sm md:text-base text-gray-600">
-                Grow A Garden is a relaxing and enjoyable farming simulation game where you can build your dream garden, 
+                Grow A Garden is a relaxing and enjoyable farming simulation game where you can build your dream garden,
                 raise animals, and enjoy the peaceful life of a happy farmer!
               </p>
             </div>
-            
+
             <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-100">
               <div className="w-14 h-14 md:w-16 md:h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-3 md:mb-4 mx-auto">
                 <div className="w-7 h-7 md:w-8 md:h-8 bg-yellow-500 rounded-full"></div>
               </div>
               <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3 text-center">Raising Animals</h3>
               <p className="text-sm md:text-base text-gray-600">
-                Take care of your animals, feed them, and collect useful resources like eggs, milk, and wool. 
+                Take care of your animals, feed them, and collect useful resources like eggs, milk, and wool.
                 You can even raise goats, rabbits, and friendly dogs or cats to keep you company!
               </p>
             </div>
-            
+
             <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-100">
               <div className="w-14 h-14 md:w-16 md:h-16 bg-blue-100 rounded-full flex items-center justify-center mb-3 md:mb-4 mx-auto">
                 <div className="w-7 h-7 md:w-8 md:h-8 bg-blue-500 rounded-full"></div>
               </div>
               <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3 text-center">Exquisite Graphics</h3>
               <p className="text-sm md:text-base text-gray-600">
-                Enjoy bright, cheerful graphics that bring your garden to life! Each plant, animal, and decoration 
+                Enjoy bright, cheerful graphics that bring your garden to life! Each plant, animal, and decoration
                 is meticulously crafted. Design your land the way you want.
               </p>
             </div>
-            
+
             <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-100">
               <div className="w-14 h-14 md:w-16 md:h-16 bg-purple-100 rounded-full flex items-center justify-center mb-3 md:mb-4 mx-auto">
                 <div className="w-7 h-7 md:w-8 md:h-8 bg-purple-500 rounded-full"></div>
               </div>
               <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3 text-center">Upgrade System</h3>
               <p className="text-sm md:text-base text-gray-600">
-                As your agriculture continues to develop, you need to skillfully manage resources, such as selling your 
+                As your agriculture continues to develop, you need to skillfully manage resources, such as selling your
                 harvest on the market, upgrading your tools, and constructing new buildings to improve efficiency.
               </p>
             </div>
@@ -150,12 +150,12 @@ export default function Home() {
               <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-3 text-center text-green-700">Plants Database</h3>
               <p className="mb-4 md:mb-6 text-sm md:text-base text-gray-600 text-center">Browse all plantable crops, learn about their growth times, selling prices, and mutation conditions.</p>
               <div className="text-center">
-                <a href="/crops" className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-5 md:px-6 rounded-full transition duration-300">
+                <Link href="/crops" className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-5 md:px-6 rounded-full transition duration-300">
                   View Plants
-                </a>
+                </Link>
               </div>
             </div>
-            
+
             {/* Pets Card */}
             <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-blue-200 hover:shadow-xl transition-shadow duration-300">
               <div className="w-14 h-14 md:w-16 md:h-16 bg-blue-100 rounded-full flex items-center justify-center mb-3 md:mb-4 mx-auto">
@@ -164,12 +164,12 @@ export default function Home() {
               <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-3 text-center text-blue-700">Pet Encyclopedia</h3>
               <p className="mb-4 md:mb-6 text-sm md:text-base text-gray-600 text-center">Explore all pets in the game, learn about their rarity, abilities, and how to obtain them.</p>
               <div className="text-center">
-                <a href="/pets" className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-5 md:px-6 rounded-full transition duration-300">
+                <Link href="/pets" className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-5 md:px-6 rounded-full transition duration-300">
                   View Pets
-                </a>
+                </Link>
               </div>
             </div>
-            
+
             {/* Guides Card */}
             <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-purple-200 hover:shadow-xl transition-shadow duration-300">
               <div className="w-14 h-14 md:w-16 md:h-16 bg-purple-100 rounded-full flex items-center justify-center mb-3 md:mb-4 mx-auto">
@@ -178,9 +178,9 @@ export default function Home() {
               <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-3 text-center text-purple-700">Game Guides</h3>
               <p className="mb-4 md:mb-6 text-sm md:text-base text-gray-600 text-center">Read detailed game guides, from beginner tutorials to advanced strategies, to help you become a gardening master.</p>
               <div className="text-center">
-                <a href="/guides" className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-5 md:px-6 rounded-full transition duration-300">
+                <Link href="/guides" className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-5 md:px-6 rounded-full transition duration-300">
                   View Guides
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -194,30 +194,30 @@ export default function Home() {
           <p className="text-center text-gray-600 mb-6 md:mb-8 text-sm md:text-base">Check out our most recent guides and tutorials</p>
           <div className="space-y-5 md:space-y-6 max-w-4xl mx-auto">
             <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300">
-              <h3 className="text-xl md:text-2xl font-semibold mb-2">Beginner's Guide to Grow a Garden</h3>
+              <h3 className="text-xl md:text-2xl font-semibold mb-2">Beginner&apos;s Guide to Grow a Garden</h3>
               <p className="text-gray-500 mb-3 md:mb-4 text-sm md:text-base">Published: July 8, 2025</p>
               <p className="mb-3 md:mb-4 text-sm md:text-base text-gray-600">
                 New to Grow a Garden? This comprehensive guide covers all the basics you need to know to get started, including initial setup, understanding core mechanics, and tips for your first harvest.
               </p>
-              <a href="/guides/beginners-guide" className="text-blue-600 hover:underline font-medium text-sm md:text-base">Read More →</a>
+              <Link href="/guides/beginners-guide" className="text-blue-600 hover:underline font-medium text-sm md:text-base">Read More →</Link>
             </div>
-            
+
             <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300">
               <h3 className="text-xl md:text-2xl font-semibold mb-2">Paradise Egg Guide</h3>
               <p className="text-gray-500 mb-3 md:mb-4 text-sm md:text-base">Published: June 27, 2025</p>
               <p className="mb-3 md:mb-4 text-sm md:text-base text-gray-600">
                 Learn everything about the Paradise Egg, how to obtain it, what pets you can hatch from it, and strategies for maximizing your chances.
               </p>
-              <a href="/guides/paradise-egg" className="text-blue-600 hover:underline font-medium text-sm md:text-base">Read More →</a>
+              <Link href="/guides/paradise-egg" className="text-blue-600 hover:underline font-medium text-sm md:text-base">Read More →</Link>
             </div>
-            
+
             <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300">
               <h3 className="text-xl md:text-2xl font-semibold mb-2">Anti Bee Egg Guide</h3>
               <p className="text-gray-500 mb-3 md:mb-4 text-sm md:text-base">Published: June 13, 2025</p>
               <p className="mb-3 md:mb-4 text-sm md:text-base text-gray-600">
                 Discover the secrets of the Anti Bee Egg, its unique properties, and the special pets it contains.
               </p>
-              <a href="/guides/anti-bee-egg" className="text-blue-600 hover:underline font-medium text-sm md:text-base">Read More →</a>
+              <Link href="/guides/anti-bee-egg" className="text-blue-600 hover:underline font-medium text-sm md:text-base">Read More →</Link>
             </div>
           </div>
         </div>
@@ -231,12 +231,12 @@ export default function Home() {
             Explore our comprehensive guides and tools to enhance your Grow A Garden experience!
           </p>
           <div className="flex justify-center">
-            <a 
-              href="/guides" 
+            <Link
+              href="/guides"
               className="bg-white text-green-600 hover:bg-gray-100 font-bold py-2 md:py-3 px-6 md:px-8 rounded-full transition duration-300"
             >
               Explore All Guides
-            </a>
+            </Link>
           </div>
         </div>
       </section>

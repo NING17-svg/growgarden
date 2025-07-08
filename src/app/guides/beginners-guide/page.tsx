@@ -1,10 +1,9 @@
-import Head from 'next/head';
 import { Metadata } from 'next';
 
 // 设置页面的元数据，用于SEO优化
 export const metadata: Metadata = {
-  title: 'Complete Beginner\'s Guide to Grow a Garden | growgarden.run',
-  description: 'Master Grow a Garden with our comprehensive beginner\'s guide. Learn game basics, mutation systems, weather events, and advanced strategies to grow your garden empire.',
+  title: 'Complete Beginner&apos;s Guide to Grow a Garden | growgarden.run',
+  description: 'Master Grow a Garden with our comprehensive beginner&apos;s guide. Learn game basics, mutation systems, weather events, and advanced strategies to grow your garden empire.',
   viewport: 'width=device-width, initial-scale=1',
   // 其他元数据可以在此处添加
 };
@@ -15,7 +14,7 @@ export default function BeginnersGuidePage() {
     <div className="py-12 bg-blue-50">
       <div className="container mx-auto px-4">
         <article className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
-          <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">Complete Beginner's Guide to Grow a Garden: Building Your Garden Empire</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">Complete Beginner&apos;s Guide to Grow a Garden: Building Your Garden Empire</h1>
           
           <div className="text-gray-500 mb-8 flex items-center justify-center">
             <span>Published: July 8, 2025</span>
@@ -29,7 +28,7 @@ export default function BeginnersGuidePage() {
               Grow a Garden is a farming simulation game on the Roblox platform where players can plant, harvest, and sell various crops, earning in-game currency called Sheckles by carefully managing their garden. The core gameplay is straightforward: buy seeds, plant them, wait for them to grow, harvest, and sell. Behind this simple loop, however, the game features rich mutation systems, pet mechanics, and weather events that can help players maximize their profits.
             </p>
             <p>
-              Whether you're just starting with Grow a Garden or want to understand the basic mechanics, this guide will provide comprehensive guidance to help you grow from an ordinary farmer into a garden tycoon.
+              Whether you&apos;re just starting with Grow a Garden or want to understand the basic mechanics, this guide will provide comprehensive guidance to help you grow from an ordinary farmer into a garden tycoon.
             </p>
 
             <h2 id="basic-gameplay" className="text-2xl font-semibold mt-8 mb-4">Basic Gameplay</h2>
@@ -57,7 +56,7 @@ export default function BeginnersGuidePage() {
 
             <h3 id="buying-seeds" className="text-xl font-semibold mt-6 mb-3">Buying Seeds</h3>
             <p>
-              To start your garden adventure, you first need to purchase seeds. Click the "Seeds" button at the top of the screen or walk to the seed shop. As a beginner, you have 20 Sheckles as starting funds, enough to buy some basic seeds like carrots.
+              To start your garden adventure, you first need to purchase seeds. Click the &quot;Seeds&quot; button at the top of the screen or walk to the seed shop. As a beginner, you have 20 Sheckles as starting funds, enough to buy some basic seeds like carrots.
             </p>
             <p>
               The seed shop refreshes its inventory every 5 minutes, offering seeds of different rarities. Seed rarities range from Common, Uncommon, Rare, Legendary, to Mythical. The higher the rarity of a seed, the lower its probability of appearing in the shop, but the higher the return.
@@ -65,7 +64,7 @@ export default function BeginnersGuidePage() {
 
             <h3 id="planting-crops" className="text-xl font-semibold mt-6 mb-3">Planting Crops</h3>
             <p>
-              Return to your garden (you can quickly return by clicking the "Plot" button), equip your seeds, and then click on the tillable plots to plant. Your garden initially has 3 rows and 2 columns of tillable area, for a total of 6 plots.
+              Return to your garden (you can quickly return by clicking the &quot;Plot&quot; button), equip your seeds, and then click on the tillable plots to plant. Your garden initially has 3 rows and 2 columns of tillable area, for a total of 6 plots.
             </p>
 
             <h3 id="waiting-for-growth" className="text-xl font-semibold mt-6 mb-3">Waiting for Growth</h3>
@@ -83,7 +82,7 @@ export default function BeginnersGuidePage() {
 
             <h3 id="harvesting-and-selling" className="text-xl font-semibold mt-6 mb-3">Harvesting and Selling</h3>
             <p>
-              When a crop is fully mature, interact with it to harvest. After harvesting, you can click the "Sell" button at the top of the screen to go to the merchant. The merchant offers three options:
+              When a crop is fully mature, interact with it to harvest. After harvesting, you can click the &quot;Sell&quot; button at the top of the screen to go to the merchant. The merchant offers three options:
             </p>
             <ul className="list-disc pl-6 mb-4">
               <li><strong>I want to sell my inventory</strong> - Sells everything in your backpack except gear</li>
@@ -105,7 +104,7 @@ export default function BeginnersGuidePage() {
               <li><strong>Multi-harvest crops</strong>: Like strawberries and tomatoes, they can be harvested multiple times without needing to be replanted. These crops are usually more cost-effective because you only need to buy the seed once but can harvest multiple times.</li>
             </ol>
             <p>
-              As a beginner, once you have enough funds, it's recommended to invest in multi-harvest crops such as strawberries or blueberries. While they have a higher initial cost, they provide better long-term returns.
+              As a beginner, once you have enough funds, it&apos;s recommended to invest in multi-harvest crops such as strawberries or blueberries. While they have a higher initial cost, they provide better long-term returns.
             </p>
 
             <h3 id="mutation-system" className="text-xl font-semibold mt-6 mb-3">Mutation System</h3>
@@ -128,7 +127,7 @@ export default function BeginnersGuidePage() {
 
             <h3 id="weather-system" className="text-xl font-semibold mt-6 mb-3">Weather System</h3>
             <p>
-              The game's weather system changes randomly, affecting your crop growth and mutation chances:
+              The game&apos;s weather system changes randomly, affecting your crop growth and mutation chances:
             </p>
             <ul className="list-disc pl-6 mb-4">
               <li><strong>Sunny</strong>: Standard growth rate</li>
@@ -172,7 +171,7 @@ export default function BeginnersGuidePage() {
             </p>
             <ol className="list-decimal pl-6 mb-4">
               <li><strong>Dragonfly</strong>: Turns a random crop into gold every 5 minutes, increasing the selling price by 20 times.</li>
-              <li><strong>Raccoon</strong>: "Borrows" a mature plant from another player's garden every 15 minutes.</li>
+              <li><strong>Raccoon</strong>: &quot;Borrows&quot; a mature plant from another player&apos;s garden every 15 minutes.</li>
               <li><strong>Giant Ant</strong>: Has a chance to duplicate harvested fruit.</li>
               <li><strong>Mole</strong>: Digs underground to get free gear and Sheckles.</li>
               <li><strong>Cow</strong>: Increases the growth rate of surrounding plants.</li>
@@ -201,12 +200,12 @@ export default function BeginnersGuidePage() {
 
             <h3 id="strategic-use-of-gear" className="text-xl font-semibold mt-6 mb-3">3. Strategic Use of Gear</h3>
             <p>
-              Gear is temporary, so use it when it's most effective. For example, use an advanced sprinkler when your garden is filled with multi-harvest crops, not when you only have a few plants.
+              Gear is temporary, so use it when it&apos;s most effective. For example, use an advanced sprinkler when your garden is filled with multi-harvest crops, not when you only have a few plants.
             </p>
 
             <h3 id="choose-pets-wisely" className="text-xl font-semibold mt-6 mb-3">4. Choose Pets Wisely</h3>
             <p>
-              Don't buy every type of egg randomly. Research the abilities of different pets and prioritize those that can increase mutation chances, provide additional resources, or duplicate crops.
+              Don&apos;t buy every type of egg randomly. Research the abilities of different pets and prioritize those that can increase mutation chances, provide additional resources, or duplicate crops.
             </p>
 
             <h3 id="observe-the-market" className="text-xl font-semibold mt-6 mb-3">5. Observe the Market</h3>
@@ -243,14 +242,12 @@ export default function BeginnersGuidePage() {
 
             <h2 id="conclusion" className="text-2xl font-semibold mt-8 mb-4">Conclusion</h2>
             <p>
-              Grow a Garden is a simple yet deep game. By understanding its core mechanics and implementing effective strategies, you can develop from a small garden into a thriving agricultural empire. Starting with the basic planting and harvesting loop, gradually exploring mutation, weather, and pet systems, you'll discover many more joys to uncover in the game.
+              Grow a Garden is a simple yet deep game. By understanding its core mechanics and implementing effective strategies, you can develop from a small garden into a thriving agricultural empire. Starting with the basic planting and harvesting loop, gradually exploring mutation, weather, and pet systems, you&apos;ll discover many more joys to uncover in the game.
             </p>
             <p>
-              We hope this beginner's guide will help you succeed in your Grow a Garden journey. May your garden flourish, mutations abound, and harvests be plentiful!
+              We hope this beginner&apos;s guide will help you succeed in your Grow a Garden journey. May your garden flourish, mutations abound, and harvests be plentiful!
             </p>
-            <p>
-              If you have any questions or need more specific advice, feel free to discuss. Now, grab your seeds and start your garden adventure!
-            </p>
+
           </div>
         </article>
       </div>
