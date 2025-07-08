@@ -6,7 +6,7 @@ import { MetadataRoute } from 'next';
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   // 定义网站域名
-  const baseUrl = 'https://growgarden.com';
+  const baseUrl = 'https://growgarden.run';
 
   // 静态页面路径
   const staticRoutes = [
