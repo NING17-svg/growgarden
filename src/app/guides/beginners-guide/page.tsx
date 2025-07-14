@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Complete Beginner&apos;s Guide to Grow a Garden | growgarden.run',
   description: 'Master Grow a Garden with our comprehensive beginner&apos;s guide. Learn game basics, mutation systems, weather events, and advanced strategies to grow your garden empire.',
   viewport: 'width=device-width, initial-scale=1',
+  alternates: {
+    canonical: 'https://growgarden.run/guides/beginners-guide',
+  },
   // 其他元数据可以在此处添加
 };
 

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Master Grow a Garden's core mechanics. This complete guide covers land cultivation, soil types, planting processes, watering, fertilizing, and optimal harvesting strategies to maximize your farm's potential.",
   alternates: {
     // 规范URL，避免重复内容
-    canonical: '/guides/game-mechanics-complete-guide',
+    canonical: 'https://growgarden.run/guides/game-mechanics-complete-guide',
   },
 };
 

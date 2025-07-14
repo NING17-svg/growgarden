@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    { 
+      "source": "http://www.growgarden.run/:path*",
+      "destination": "https://growgarden.run/:path*",
+      "permanent": true 
+    },
+    { 
+      "source": "https://www.growgarden.run/:path*",
+      "destination": "https://growgarden.run/:path*",
+      "permanent": true 
+    }
+  ]
+} 
