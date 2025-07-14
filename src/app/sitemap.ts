@@ -18,6 +18,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const dynamicGuideRoutes = [
     '/guides/beginners-guide',
     '/guides/game-mechanics-complete-guide',
+    '/guides/crop-mutation-secrets',
+    '/guides/rare-crops-roadmap',
   ];
 
   // 合并所有路径并生成站点地图条目

@@ -26,6 +26,24 @@ export default function GuidesPage() {
           </p>
           <a href="/guides/game-mechanics-complete-guide" className="text-blue-600 hover:underline">Read More →</a>
         </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl font-semibold mb-2">Crop Mutation Secrets: A Complete Guide</h2>
+          <p className="text-gray-500 mb-4">Published: July 15, 2025 • 18 min read</p>
+          <p className="mb-4">
+            Unlock the secrets of crop mutation in Grow a Garden! This complete guide covers all mutation types, how to trigger them, and advanced strategies to increase your mutation chances and profits.
+          </p>
+          <a href="/guides/crop-mutation-secrets" className="text-blue-600 hover:underline">Read More →</a>
+        </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl font-semibold mb-2">Guide to Obtaining Rare Crops: From Common to Legendary</h2>
+          <p className="text-gray-500 mb-4">Published: July 16, 2025 • 20 min read</p>
+          <p className="mb-4">
+            A complete roadmap to obtaining rare and legendary crops in Grow a Garden. Learn about seed rarity, strategic mutation paths, and how to maximize the value of your harvest.
+          </p>
+          <a href="/guides/rare-crops-roadmap" className="text-blue-600 hover:underline">Read More →</a>
+        </div>
       </div>
     </div>
   );
