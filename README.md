@@ -47,23 +47,16 @@ Please feel free to submit a **Pull Request** or create an **Issue**. Every cont
 
 ## 🚀 Development Roadmap
 
-We are following a phased development approach to ensure steady progress.
+Our vision for `growgarden.run` extends beyond its current state. We have a clear roadmap for development, focused on delivering more value to the community over time.
 
-### Phase 1 - Content-First (MVP)
--   [x] Set up the basic website structure
--   [x] Publish high-quality initial guides
--   [ ] Deploy to Vercel and set up a custom domain
--   [ ] Integrate Google Analytics and AdSense
+**Phase 1: Foundation & Core Content (Current)**
+Our initial focus is on building a solid foundation with high-quality, in-depth guides covering the most critical aspects of *Grow a Garden*. The goal is to establish the site as a reliable source of information for all players. Key deliverables for this phase include the basic website structure and a library of essential guides.
 
-### Phase 2 - Data-Driven
--   [ ] Integrate Supabase database
--   [ ] Develop Crop and Pet database features
--   [ ] Implement search and filtering functionality
--   [ ] Build the Sheckles Calculator
+**Phase 2: Data-Driven Features**
+In the next phase, we will introduce interactive, data-driven tools. This includes developing comprehensive databases for crops and pets, complete with search and filtering capabilities. We also plan to build a powerful `Sheckles Calculator` to help players optimize their in-game economy.
 
-### Phase 3 - Community & Advanced Features
--   [ ] Integrate a user authentication system
--   [ ] Enable comments and user-submitted content
+**Phase 3: Community & Interactivity**
+Looking further ahead, we aim to build a vibrant community around the site. This involves integrating user accounts, a commenting system, and features that allow users to contribute their own tips and data, making `growgarden.run` a truly collaborative platform.
 
 ## 📄 License
 
