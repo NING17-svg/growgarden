@@ -60,7 +60,7 @@ export default function CropMutationSecretsPage() {
                   <tr><td className="px-6 py-4">Bloodlit</td><td className="px-6 py-4">x4</td><td className="px-6 py-4">During a Blood Moon event at night.</td></tr>
                   <tr><td className="px-6 py-4">Plasma</td><td className="px-6 py-4">x5</td><td className="px-6 py-4">During a Laser Event (usually admin-triggered).</td></tr>
                   <tr><td className="px-6 py-4">Honey Glazed</td><td className="px-6 py-4">x5</td><td className="px-6 py-4">Using a Honey Sprinkler or from a Bear Bee pet.</td></tr>
-                  <tr><td className="px-6 py-4">Frozen</td><td className="px-6 py-4">x10</td><td className="px-6 py-4">When a 'Wet' crop is exposed to Frost/Snow weather. Can also be triggered by a Polar Bear pet.</td></tr>
+                  <tr><td className="px-6 py-4">Frozen</td><td className="px-6 py-4">x10</td><td className="px-6 py-4">When a &apos;Wet&apos; crop is exposed to Frost/Snow weather. Can also be triggered by a Polar Bear pet.</td></tr>
                   <tr><td className="px-6 py-4">Golden</td><td className="px-6 py-4">x20</td><td className="px-6 py-4">Has a 1% natural chance. Can be triggered by a Dragonfly pet.</td></tr>
                   <tr><td className="px-6 py-4">Zombified</td><td className="px-6 py-4">x25</td><td className="px-6 py-4">Infected by a Chicken Zombie pet.</td></tr>
                   <tr><td className="px-6 py-4">Rainbow</td><td className="px-6 py-4">x50</td><td className="px-6 py-4">Has a 0.1% natural chance to occur.</td></tr>
@@ -82,10 +82,10 @@ export default function CropMutationSecretsPage() {
               Weather is one of the most reliable ways to get mutations. Always be prepared:
             </p>
             <ul className="list-disc pl-6 mb-4">
-              <li><strong>Rain/Thunderstorms:</strong> Keep your plots full of crops to get a garden full of 'Wet' mutations. This also sets you up for the 'Frozen' mutation if snow follows.</li>
-              <li><strong>Thunderstorms:</strong> While all crops get 'Wet', only a few will be struck by lightning for the massive 'Shocked' (x100) multiplier. It's a numbers game, so plant as much as you can.</li>
-              <li><strong>Snow/Frost:</strong> This event triggers 'Chilled' mutations. More importantly, if your crops are already 'Wet', they will turn 'Frozen' for a huge x10 multiplier. Watch the weather forecast!</li>
-              <li><strong>Blood Moon/Lunar Glow:</strong> These night-time events trigger 'Bloodlit' (x4) and 'Moonlit' (x2) mutations respectively. Make sure you are active during these events to plant and harvest.</li>
+              <li><strong>Rain/Thunderstorms:</strong> Keep your plots full of crops to get a garden full of &apos;Wet&apos; mutations. This also sets you up for the &apos;Frozen&apos; mutation if snow follows.</li>
+              <li><strong>Thunderstorms:</strong> While all crops get &apos;Wet&apos;, only a few will be struck by lightning for the massive &apos;Shocked&apos; (x100) multiplier. It&apos;s a numbers game, so plant as much as you can.</li>
+              <li><strong>Snow/Frost:</strong> This event triggers &apos;Chilled&apos; mutations. More importantly, if your crops are already &apos;Wet&apos;, they will turn &apos;Frozen&apos; for a huge x10 multiplier. Watch the weather forecast!</li>
+              <li><strong>Blood Moon/Lunar Glow:</strong> These night-time events trigger &apos;Bloodlit&apos; (x4) and &apos;Moonlit&apos; (x2) mutations respectively. Make sure you are active during these events to plant and harvest.</li>
             </ul>
 
             <h3 id="strategic-use-of-gear" className="text-xl font-semibold mt-6 mb-3">Strategic Use of Gear</h3>
@@ -93,8 +93,8 @@ export default function CropMutationSecretsPage() {
               The right gear can directly influence your mutation chances.
             </p>
             <ul className="list-disc pl-6 mb-4">
-              <li><strong>Advanced & Godly Sprinklers:</strong> These sprinklers explicitly state they boost the mutation chance of your plants for five minutes. The best time to use them is when your garden is full of multi-harvest crops, maximizing the sprinkler's uptime and potential impact.</li>
-              <li><strong>Event Sprinklers:</strong> Sprinklers like the 'Chocolate Sprinkler' or 'Honey Sprinkler' are the only way to get their respective mutations. Save them for when you have high-value crops planted.</li>
+              <li><strong>Advanced & Godly Sprinklers:</strong> These sprinklers explicitly state they boost the mutation chance of your plants for five minutes. The best time to use them is when your garden is full of multi-harvest crops, maximizing the sprinkler&apos;s uptime and potential impact.</li>
+              <li><strong>Event Sprinklers:</strong> Sprinklers like the &apos;Chocolate Sprinkler&apos; or &apos;Honey Sprinkler&apos; are the only way to get their respective mutations. Save them for when you have high-value crops planted.</li>
             </ul>
 
             <h3 id="the-power-of-pets" className="text-xl font-semibold mt-6 mb-3">The Power of Pets</h3>
@@ -103,28 +103,28 @@ export default function CropMutationSecretsPage() {
             </p>
             <ul className="list-disc pl-6 mb-4">
               <li><strong>Dragonfly:</strong> Turns a random crop golden every few minutes. A reliable way to get the x20 Golden mutation.</li>
-              <li><strong>Polar Bear:</strong> Can trigger both 'Chilled' and 'Frozen' mutations, giving you a powerful combo without relying on weather.</li>
-              <li><strong>Bee-type Pets:</strong> A variety of bee pets can trigger the 'Pollinated' (x3) mutation.</li>
-              <li><strong>Chicken Zombie:</strong> The only way to get the 'Zombified' (x25) mutation.</li>
+              <li><strong>Polar Bear:</strong> Can trigger both &apos;Chilled&apos; and &apos;Frozen&apos; mutations, giving you a powerful combo without relying on weather.</li>
+              <li><strong>Bee-type Pets:</strong> A variety of bee pets can trigger the &apos;Pollinated&apos; (x3) mutation.</li>
+              <li><strong>Chicken Zombie:</strong> The only way to get the &apos;Zombified&apos; (x25) mutation.</li>
             </ul>
             <p>Choosing your active pets wisely based on your mutation goals is a key advanced strategy.</p>
             
             <h3 id="stacking-mutations" className="text-xl font-semibold mt-6 mb-3">Stacking Mutations for Exponential Gains</h3>
             <p>
-              The true path to wealth is by stacking mutations. Multipliers from different mutations combine, leading to astronomical values. For example, imagine a crop that naturally mutates to 'Rainbow' (x50). If it then gets struck by lightning ('Shocked', x100), its value becomes 5000 times the base price! While extremely rare, stacking is the ultimate goal.
+              The true path to wealth is by stacking mutations. Multipliers from different mutations combine, leading to astronomical values. For example, imagine a crop that naturally mutates to &apos;Rainbow&apos; (x50). If it then gets struck by lightning (&apos;Shocked&apos;, x100), its value becomes 5000 times the base price! While extremely rare, stacking is the ultimate goal.
             </p>
             <p>
-              A more achievable combo is 'Golden' (x20) + 'Wet' (x2), resulting in a x40 multiplier. Always be aware of how different environmental effects can combine on your crops.
+              A more achievable combo is &apos;Golden&apos; (x20) + &apos;Wet&apos; (x2), resulting in a x40 multiplier. Always be aware of how different environmental effects can combine on your crops.
             </p>
 
             <h2 id="value-and-rarity-analysis" className="text-2xl font-semibold mt-8 mb-4">Analyzing Value and Rarity</h2>
             <p>
-              It's crucial to balance the pursuit of rare mutations with steady income.
+              It&apos;s crucial to balance the pursuit of rare mutations with steady income.
             </p>
             <ul className="list-disc pl-6 mb-4">
-              <li><strong>Low-Hanging Fruit:</strong> Focus on reliable, weather-based mutations like 'Wet' and 'Frozen'. A garden full of 'Frozen' (x10) crops is often more profitable than waiting days for one 'Rainbow' plant.</li>
-              <li><strong>High-Risk, High-Reward:</strong> Pursuing 'Rainbow' (0.1%) or 'Shocked' mutations is a long-term goal. Dedicate a part of your garden to multi-harvest plants and hope for the best, but don't let it distract from consistent earnings.</li>
-              <li><strong>Pet-Induced Mutations:</strong> Investing in a pet like the Dragonfly is a fantastic mid-game strategy. It provides a steady stream of valuable 'Golden' crops.</li>
+              <li><strong>Low-Hanging Fruit:</strong> Focus on reliable, weather-based mutations like &apos;Wet&apos; and &apos;Frozen&apos;. A garden full of &apos;Frozen&apos; (x10) crops is often more profitable than waiting days for one &apos;Rainbow&apos; plant.</li>
+              <li><strong>High-Risk, High-Reward:</strong> Pursuing &apos;Rainbow&apos; (0.1%) or &apos;Shocked&apos; mutations is a long-term goal. Dedicate a part of your garden to multi-harvest plants and hope for the best, but don&apos;t let it distract from consistent earnings.</li>
+              <li><strong>Pet-Induced Mutations:</strong> Investing in a pet like the Dragonfly is a fantastic mid-game strategy. It provides a steady stream of valuable &apos;Golden&apos; crops.</li>
             </ul>
 
             <h2 id="conclusion" className="text-2xl font-semibold mt-8 mb-4">Conclusion</h2>

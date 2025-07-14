@@ -84,7 +84,7 @@ export default function RareCropsRoadmapPage() {
               The second, more strategic path to wealth is transforming common crops into legendary treasures through mutation. This isn't a linear A-to-B path, but rather a process of "stacking" different independent mutations onto a single plant. The goal is to combine as many multipliers as possible.
             </p>
             <blockquote className="border-l-4 border-blue-500 pl-4 italic">
-              "A 'Legendary Crop' is not just one with a high base value, but a crop, any crop, that has achieved a legendary combination of mutations."
+              &quot;A &apos;Legendary Crop&apos; is not just one with a high base value, but a crop, any crop, that has achieved a legendary combination of mutations.&quot;
             </blockquote>
 
             <h3 id="mutation-path-diagram" className="text-xl font-semibold mt-6 mb-3">Visualizing the Mutation Path</h3>
@@ -117,34 +117,34 @@ export default function RareCropsRoadmapPage() {
             </p>
             <ul className="list-decimal pl-6 space-y-4">
               <li>
-                <strong>The "Frozen Gold" Strategy:</strong>
+                <strong>The &quot;Frozen Gold&quot; Strategy:</strong>
                 <ul>
                   <li><strong>Goal:</strong> Combine Golden (x20) and Frozen (x10) for a x200 multiplier.</li>
                   <li><strong>Path:</strong>
                     <ol className="list-alpha pl-6">
                       <li>Use a Dragonfly pet to reliably generate Golden crops.</li>
-                      <li>Wait for Rain to make the Golden crop 'Wet'.</li>
-                      <li>Wait for Snow to transform the 'Wet' Golden crop into a 'Frozen' Golden crop.</li>
+                      <li>Wait for Rain to make the Golden crop &apos;Wet&apos;.</li>
+                      <li>Wait for Snow to transform the &apos;Wet&apos; Golden crop into a &apos;Frozen&apos; Golden crop.</li>
                       <li>Alternatively, use a Polar Bear pet to freeze the Golden crop directly.</li>
                     </ol>
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>The "Shock and Sell" Strategy:</strong>
+                <strong>The &quot;Shock and Sell&quot; Strategy:</strong>
                 <ul>
                   <li><strong>Goal:</strong> Achieve the massive Shocked (x100) mutation.</li>
                   <li><strong>Path:</strong>
                     <ol className="list-alpha pl-6">
                       <li>Fill every single plot of your garden with multi-harvest crops like Strawberries or Tomatoes.</li>
-                      <li>When a Thunderstorm begins, all your plants become 'Wet' (x2).</li>
-                      <li>The key is density. With a full garden, you maximize the chance that at least one of your crops will be struck by lightning. A single 'Shocked' crop can be more valuable than an entire harvest of normal ones.</li>
+                      <li>When a Thunderstorm begins, all your plants become &apos;Wet&apos; (x2).</li>
+                      <li>The key is density. With a full garden, you maximize the chance that at least one of your crops will be struck by lightning. A single &apos;Shocked&apos; crop can be more valuable than an entire harvest of normal ones.</li>
                     </ol>
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>The "Mythical Multiplier" Strategy:</strong>
+                <strong>The &quot;Mythical Multiplier&quot; Strategy:</strong>
                 <ul>
                   <li><strong>Goal:</strong> Maximize the value of an extremely rare seed.</li>
                   <li><strong>Path:</strong>
@@ -152,7 +152,7 @@ export default function RareCropsRoadmapPage() {
                       <li>Obtain a Mythical seed like a Cursed Fruit (base value 10,000). Do NOT plant it immediately.</li>
                       <li>Wait for a high-potential scenario: a back-to-back forecast of Rain then Snow, a Thunderstorm, or an admin-triggered event.</li>
                       <li>Plant the seed, and use your absolute best gear (Godly Sprinkler) and mutation-enhancing pets (Dragonfly, etc.) simultaneously.</li>
-                      <li>A Cursed Fruit (10,000) that becomes 'Frozen' (x10) is worth 100,000. If it also naturally becomes 'Golden' (x20), it's worth 2,000,000 Sheckles.</li>
+                      <li>A Cursed Fruit (10,000) that becomes &apos;Frozen&apos; (x10) is worth 100,000. If it also naturally becomes &apos;Golden&apos; (x20), it&apos;s worth 2,000,000 Sheckles.</li>
                     </ol>
                   </li>
                 </ul>
@@ -164,14 +164,14 @@ export default function RareCropsRoadmapPage() {
               Getting a rare crop or a powerful mutation stack is only half the battle. Don't rush to sell it.
             </p>
             <ul className="list-disc pl-6 mb-4">
-              <li><strong>Patience is a Virtue:</strong> If you get a Golden or Rainbow mutation, don't harvest it. It's a permanent state. Leave it in the ground and wait for weather events to add more multipliers. A Rainbow (x50) crop is great, but a Wet Rainbow (x100) crop is twice as good.</li>
-              <li><strong>Protect Your Assets:</strong> High-value plants are your primary assets. Be careful with pets like the Raccoon that might "borrow" them from you or other players.</li>
-              <li><strong>Know When to Hold 'em:</strong> The ultimate prize is something like a Rainbow (x50) + Shocked (x100) + Frozen (x10) crop. This would result in a x50,000 multiplier. The chance is infinitesimal, but it's the dream that keeps gardeners farming.</li>
+              <li><strong>Patience is a Virtue:</strong> If you get a Golden or Rainbow mutation, don&apos;t harvest it. It&apos;s a permanent state. Leave it in the ground and wait for weather events to add more multipliers. A Rainbow (x50) crop is great, but a Wet Rainbow (x100) crop is twice as good.</li>
+              <li><strong>Protect Your Assets:</strong> High-value plants are your primary assets. Be careful with pets like the Raccoon that might &quot;borrow&quot; them from you or other players.</li>
+              <li><strong>Know When to Hold &apos;em:</strong> The ultimate prize is something like a Rainbow (x50) + Shocked (x100) + Frozen (x10) crop. This would result in a x50,000 multiplier. The chance is infinitesimal, but it&apos;s the dream that keeps gardeners farming.</li>
             </ul>
 
             <h2 id="conclusion" className="text-2xl font-semibold mt-8 mb-4">Conclusion</h2>
             <p>
-              The journey from a common carrot to a legendary, multi-mutated Soul Fruit is the essence of Grow a Garden's endgame. It requires a deep understanding of both seed rarity and the art of mutation stacking. By following this guide's roadmap—hunting rare seeds, creating targeted mutation opportunities, and patiently layering multipliers—you can strategically navigate your way to becoming one of the wealthiest gardeners in the game.
+              The journey from a common carrot to a legendary, multi-mutated Soul Fruit is the essence of Grow a Garden&apos;s endgame. It requires a deep understanding of both seed rarity and the art of mutation stacking. By following this guide&apos;s roadmap—hunting rare seeds, creating targeted mutation opportunities, and patiently layering multipliers—you can strategically navigate your way to becoming one of the wealthiest gardeners in the game.
             </p>
 
           </div>
