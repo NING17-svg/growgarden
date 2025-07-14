@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#不需要的文件
+actionlist.md
+SEO.md
+text.md

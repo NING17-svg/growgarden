@@ -1,95 +1,70 @@
-# growgarden.run 网站
+# growgarden.run - The Ultimate Grow a Garden Guide
 
-## 项目概述
+[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fgrowgarden.run&style=for-the-badge)](https://growgarden.run)
 
-本项目旨在为 Roblox 游戏"Grow a Garden"创建一个全面的攻略网站。主要目标是通过提供高质量的游戏指南和有价值的内容来吸引游戏特定流量，最终通过 Google AdSense 实现盈利。我们采用"内容为王"策略，优先发布文字攻略获取流量，后续逐步完善数据驱动功能。
+Welcome to the official open-source repository for `growgarden.run`! This is a comprehensive, data-driven guide website for the Roblox game **Grow a Garden**. Our goal is to provide players with the most accurate and in-depth game guides and tools.
 
-## 目标受众
+**➡️ Visit the live site: [https://growgarden.run](https://growgarden.run)**
 
-"Grow a Garden"Roblox 游戏的玩家，从寻求基本指导的新手玩家到寻求深入数据和高级策略的经验丰富的玩家。
+## ✨ Website Preview
 
-## 内容策略与SEO优先级
+*(A screenshot or GIF of the website's homepage or a core feature would be great here to attract attention.)*
 
-我们的内容发布策略以SEO为核心，采用以下优先级：
+![Website Preview](https://example.com/your-screenshot.png)
 
-1. **优质文字攻略优先** - 创建并发布深度攻略文章（1200词以上），覆盖玩家最需要的游戏内容
-2. **关键词研究驱动内容** - 根据游戏相关关键词分析创建内容，满足搜索需求
-3. **循序渐进实施功能** - 从基础文字内容开始，逐步增加交互功能和数据库
+## Core Features
 
-### 文字攻略优先内容（MVP阶段）
+Our website offers the following core content and features:
 
-*   **新手指南：** 基本机制、初始设置、早期游戏进程（1200+词）
-*   **作物变异攻略：** 详细解析变异机制、条件和提高变异几率的技巧（1200+词）
-*   **宠物系统深入解析：** 宠物获取、能力和最佳宠物组合（1200+词）
-*   **高效赚钱策略：** 最大化"Sheckles"（游戏内货币）收入的方法（1200+词）
-*   **高级玩家策略：** 针对有经验玩家的优化技巧和策略（1200+词）
+-   **📚 In-depth Guides**:
+    -   Complete Beginner's Guide
+    -   Full Analysis of Crop Mutations
+    -   Pet System & Acquisition Secrets
+    -   Efficient Money-Making Strategies
+    -   Advanced Player Layout Techniques
+-   **⚙️ Interactive Tools (In Development)**:
+    -   **Crop Database**: A searchable database with detailed stats for all crops (growth time, price, mutation paths, etc.).
+    -   **Pet Database**: A complete list of all pets, their rarities, abilities, and how to obtain them.
+    -   **Utility Calculators**: Such as a Sheckles profit calculator to help players strategize.
 
-### 数据驱动功能（迭代阶段）
+## 🛠️ Tech Stack
 
-*   **交互式数据库：**
-    *   **作物数据库：** 可搜索和过滤的表格，包含详细的作物统计数据（生长周期、销售价格、变异类型等）。
-    *   **宠物数据库：** 宠物的全面列表，包括它们的稀有度、被动能力和蛋的来源。
-    *   **装备数据库：** 游戏内所有装备的目录，它们的效果以及在哪里可以获得它们。
-*   **实用工具：**
-    *   **Sheckles 计算器：** 一个交互式工具，根据作物、宠物和装备估算潜在收益。
-    *   **变异预测器：** 一个帮助玩家了解变异条件和概率的工具。
+-   **Frontend Framework**: [Next.js](https://nextjs.org/) - For its excellent performance and SEO capabilities.
+-   **Database**: [Supabase](https://supabase.io/) - To store all game data like crops, pets, etc. (in a later phase).
+-   **Image Storage**: [Cloudflare R2](https://www.cloudflare.com/developer-platform/r2/) - A cost-effective solution for storing static assets (in a later phase).
+-   **Deployment**: [Vercel](https://vercel.com/) - For a seamless deployment experience with Next.js.
 
-## 技术栈
+## 🤝 How to Contribute
 
-*   **前端框架：** Next.js (React)
-    *   选择它的原因是其出色的性能、SEO 能力（服务器端渲染/静态站点生成）和开发者体验。
-*   **数据库：** Supabase (后期迭代)
-    *   一个强大的开源 Firebase 替代方案，提供 PostgreSQL 数据库、身份验证和实时订阅。非常适合结构化游戏数据。
-*   **存储：** Cloudflare R2 (后期迭代)
-    *   用于托管静态资产（如作物图标、宠物图片、装备视觉效果）的存储解决方案，具有成本效益和全球分发能力。
+We warmly welcome contributions from the community! Whether you want to:
 
-## SEO优化重点
+-   Report a bug
+-   Suggest a new feature
+-   Add or correct guide content
+-   Improve the code
 
-*   **页面结构优化：** 每篇攻略采用合理的H1-H6标题结构，方便搜索引擎理解内容层级
-*   **内部链接策略：** 文章间互相链接，增强网站权威性和用户停留时间
-*   **图文并茂：** 适当使用游戏截图增强内容吸引力和可读性
-*   **技术SEO：** 实现sitemap.xml、robots.txt和结构化数据标记
-*   **移动端优化：** 确保网站在移动设备上有良好的用户体验
-*   **页面加载速度：** 优化资源加载，提升页面性能
+Please feel free to submit a **Pull Request** or create an **Issue**. Every contribution helps make this project better.
 
-## 开发计划（分阶段）
+## 🚀 Development Roadmap
 
-### MVP阶段 - 内容优先
-1. **基础网站搭建：**
-   * 初始化 Next.js 项目
-   * 创建基本页面结构和导航
-   * 实现攻略页面和基础SEO配置
-2. **核心内容创作：**
-   * 开发5-10篇高质量攻略文章（每篇1200词以上）
-   * 优化内容结构和关键词分布
-3. **部署与监测：**
-   * 部署到Vercel并设置域名
-   * 配置Google Analytics和AdSense
-   * 提交网站到Google Search Console
+We are following a phased development approach to ensure steady progress.
 
-### 迭代阶段 - 功能扩展
-1. **数据库集成：**
-   * 配置Supabase数据库
-   * 开发作物、宠物数据模型
-2. **交互功能开发：**
-   * 实现数据搜索和过滤功能
-   * 开发Sheckles计算器等实用工具
-3. **媒体资源整合：**
-   * 配置R2存储并上传图片资源
-   * 为数据库条目添加视觉元素
+### Phase 1 - Content-First (MVP)
+-   [x] Set up the basic website structure
+-   [x] Publish high-quality initial guides
+-   [ ] Deploy to Vercel and set up a custom domain
+-   [ ] Integrate Google Analytics and AdSense
 
-## 内容生成策略
+### Phase 2 - Data-Driven
+-   [ ] Integrate Supabase database
+-   [ ] Develop Crop and Pet database features
+-   [ ] Implement search and filtering functionality
+-   [ ] Build the Sheckles Calculator
 
-我们将采用AI辅助与人工监督相结合的方法生成高质量内容：
+### Phase 3 - Community & Advanced Features
+-   [ ] Integrate a user authentication system
+-   [ ] Enable comments and user-submitted content
 
-1. **数据获取：**
-   * 从官方Wiki、Reddit和Discord社区获取准确游戏信息
-   * 亲身游戏体验，获取第一手资料
-2. **内容创作流程：**
-   * 根据关键词研究确定内容主题
-   * 利用AI辅助生成初稿框架
-   * 人工编辑完善内容，确保准确性和可读性
-   * 优化SEO元素，包括标题、元描述和内部链接
-3. **持续更新：**
-   * 根据分析数据识别内容缺口
-   * 跟踪游戏更新，及时更新相关内容
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
