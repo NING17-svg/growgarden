@@ -35,7 +35,7 @@ export default function CropMutationSecretsPage() {
               In Grow a Garden, mutations are special versions of your crops that can be triggered by various factors. These can range from random chance, specific weather events, the use of certain gear, or the abilities of your pets. When a crop mutates, its appearance changes, and more importantly, its selling price is multiplied. Understanding how to trigger and stack these mutations is essential for any serious gardener.
             </p>
             <p>
-              Some mutations are common, like 'Wet' crops during rain, while others are incredibly rare, such as the coveted 'Rainbow' or 'Shocked' mutations. The rarest mutations offer the highest multipliers, turning a single harvest into a massive payday.
+              Some mutations are common, like &apos;Wet&apos; crops during rain, while others are incredibly rare, such as the coveted &apos;Rainbow&apos; or &apos;Shocked&apos; mutations. The rarest mutations offer the highest multipliers, turning a single harvest into a massive payday.
             </p>
 
             <h2 id="all-crop-mutations" className="text-2xl font-semibold mt-8 mb-4">A Complete List of Crop Mutations</h2>
