@@ -81,7 +81,7 @@ export default function RareCropsRoadmapPage() {
 
             <h2 id="mutation-paths" className="text-2xl font-semibold mt-8 mb-4">Mutation Paths: Crafting Value from Common Crops</h2>
             <p>
-              The second, more strategic path to wealth is transforming common crops into legendary treasures through mutation. This isn't a linear A-to-B path, but rather a process of &quot;stacking&quot; different independent mutations onto a single plant. The goal is to combine as many multipliers as possible.
+              The second, more strategic path to wealth is transforming common crops into legendary treasures through mutation. This isn&apos;t a linear A-to-B path, but rather a process of &quot;stacking&quot; different independent mutations onto a single plant. The goal is to combine as many multipliers as possible.
             </p>
             <blockquote className="border-l-4 border-blue-500 pl-4 italic">
               &quot;A &apos;Legendary Crop&apos; is not just one with a high base value, but a crop, any crop, that has achieved a legendary combination of mutations.&quot;
