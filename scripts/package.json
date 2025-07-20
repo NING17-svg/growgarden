@@ -1,0 +1,15 @@
+{
+  "name": "plant-data-fetcher",
+  "version": "1.0.0",
+  "description": "自动获取植物数据的脚本",
+  "main": "fetch-plant-data.js",
+  "scripts": {
+    "start": "node fetch-plant-data.js",
+    "install-playwright": "npx playwright install"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "author": "",
+  "license": "MIT"
+}

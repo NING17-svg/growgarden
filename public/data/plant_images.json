@@ -1,0 +1,722 @@
+[
+  {
+    "name": "carrot",
+    "url": "https://www.growagardencalculator.com/Images/carrot.webp",
+    "default_weight": 0.24,
+    "base_value": 75
+  },
+  {
+    "name": "strawberry",
+    "url": "https://www.growagardencalculator.com/Images/strawberry.webp",
+    "default_weight": 0.29,
+    "base_value": 48.27586
+  },
+  {
+    "name": "blueberry",
+    "url": "https://www.growagardencalculator.com/Images/blueberry.webp",
+    "default_weight": 0.17,
+    "base_value": 105.88235
+  },
+  {
+    "name": "tomato",
+    "url": "https://www.growagardencalculator.com/Images/tomato.webp",
+    "default_weight": 0.44,
+    "base_value": 61.36363
+  },
+  {
+    "name": "cauliflower",
+    "url": "https://www.growagardencalculator.com/Images/cauliflower.webp",
+    "default_weight": 4.74,
+    "base_value": 7.59493
+  },
+  {
+    "name": "watermelon",
+    "url": "https://www.growagardencalculator.com/Images/watermelon.webp",
+    "default_weight": 7.3,
+    "base_value": 370.9589
+  },
+  {
+    "name": "rafflesia",
+    "url": "https://www.growagardencalculator.com/Images/rafflesia.webp",
+    "default_weight": 7.6,
+    "base_value": 415.65789
+  },
+  {
+    "name": "greenapple",
+    "url": "https://www.growagardencalculator.com/Images/greenapple.webp",
+    "default_weight": 2.85,
+    "base_value": 95.08771
+  },
+  {
+    "name": "avocado",
+    "url": "https://www.growagardencalculator.com/Images/avocado.webp",
+    "default_weight": 3.32,
+    "base_value": 24.09638
+  },
+  {
+    "name": "banana",
+    "url": "https://www.growagardencalculator.com/Images/banana.webp",
+    "default_weight": 1.42,
+    "base_value": 1271.12676
+  },
+  {
+    "name": "pineapple",
+    "url": "https://www.growagardencalculator.com/Images/pineapple.webp",
+    "default_weight": 2.85,
+    "base_value": 633.33333
+  },
+  {
+    "name": "kiwi",
+    "url": "https://www.growagardencalculator.com/Images/kiwi.webp",
+    "default_weight": 4.75,
+    "base_value": 522.52631
+  },
+  {
+    "name": "bellpepper",
+    "url": "https://www.growagardencalculator.com/Images/bellpepper.webp",
+    "default_weight": 7.61,
+    "base_value": 652.2996
+  },
+  {
+    "name": "pricklypear",
+    "url": "https://www.growagardencalculator.com/Images/pricklypear.webp",
+    "default_weight": 6.65,
+    "base_value": 950.22556
+  },
+  {
+    "name": "loquat",
+    "url": "https://www.growagardencalculator.com/Images/loquat.webp",
+    "default_weight": 6.17,
+    "base_value": 1170.17828
+  },
+  {
+    "name": "feijoa",
+    "url": "https://www.growagardencalculator.com/Images/feijoa.webp",
+    "default_weight": 9.5,
+    "base_value": 1235.05263
+  },
+  {
+    "name": "pitcherplant",
+    "url": "https://www.growagardencalculator.com/Images/pitcherplant.webp",
+    "default_weight": 11.4,
+    "base_value": 2526.31578
+  },
+  {
+    "name": "orangetulip",
+    "url": "https://www.growagardencalculator.com/Images/orangetulip.webp",
+    "default_weight": 0.05,
+    "base_value": 15020
+  },
+  {
+    "name": "corn",
+    "url": "https://www.growagardencalculator.com/Images/corn.webp",
+    "default_weight": 1.9,
+    "base_value": 18.94736
+  },
+  {
+    "name": "daffodil",
+    "url": "https://www.growagardencalculator.com/Images/daffodil.webp",
+    "default_weight": 0.16,
+    "base_value": 5643.75
+  },
+  {
+    "name": "pumpkin",
+    "url": "https://www.growagardencalculator.com/Images/pumpkin.webp",
+    "default_weight": 6.9,
+    "base_value": 444.7826
+  },
+  {
+    "name": "apple",
+    "url": "https://www.growagardencalculator.com/Images/apple.webp",
+    "default_weight": 2.85,
+    "base_value": 87.01754
+  },
+  {
+    "name": "bamboo",
+    "url": "https://www.growagardencalculator.com/Images/bamboo.webp",
+    "default_weight": 3.8,
+    "base_value": 949.99999
+  },
+  {
+    "name": "coconut",
+    "url": "https://www.growagardencalculator.com/Images/coconut.webp",
+    "default_weight": 13.31,
+    "base_value": 27.12246
+  },
+  {
+    "name": "cactus",
+    "url": "https://www.growagardencalculator.com/Images/cactus.webp",
+    "default_weight": 6.65,
+    "base_value": 461.50375
+  },
+  {
+    "name": "dragonfruit",
+    "url": "https://www.growagardencalculator.com/Images/dragonfruit.webp",
+    "default_weight": 11.38,
+    "base_value": 376.71353
+  },
+  {
+    "name": "mango",
+    "url": "https://www.growagardencalculator.com/Images/mango.webp",
+    "default_weight": 14.28,
+    "base_value": 410.78431
+  },
+  {
+    "name": "grape",
+    "url": "https://www.growagardencalculator.com/Images/grape.webp",
+    "default_weight": 2.85,
+    "base_value": 2485.96491
+  },
+  {
+    "name": "mushroom",
+    "url": "https://www.growagardencalculator.com/Images/mushroom.webp",
+    "default_weight": 25.9,
+    "base_value": 5261.7
+  },
+  {
+    "name": "pepper",
+    "url": "https://www.growagardencalculator.com/Images/pepper.webp",
+    "default_weight": 4.75,
+    "base_value": 1519.99999
+  },
+  {
+    "name": "cacao",
+    "url": "https://www.growagardencalculator.com/Images/cacao.webp",
+    "default_weight": 7.6,
+    "base_value": 1425
+  },
+  {
+    "name": "beanstalk",
+    "url": "https://www.growagardencalculator.com/Images/beanstalk.webp",
+    "default_weight": 9.5,
+    "base_value": 2660
+  },
+  {
+    "name": "emberlily",
+    "url": "https://www.growagardencalculator.com/Images/emberlily.webp",
+    "default_weight": 11.4,
+    "base_value": 4398.07017
+  },
+  {
+    "name": "sugarapple",
+    "url": "https://www.growagardencalculator.com/Images/sugarapple.webp",
+    "default_weight": 8.55,
+    "base_value": 5066.66666
+  },
+  {
+    "name": "burningbud",
+    "url": "https://www.growagardencalculator.com/Images/burningbud.webp",
+    "default_weight": 11.4,
+    "base_value": 5541.66666
+  },
+  {
+    "name": "giantpinecone",
+    "url": "https://www.growagardencalculator.com/Images/giantpinecone.webp",
+    "default_weight": 5.14,
+    "base_value": 12642.0233
+  },
+  {
+    "name": "papaya",
+    "url": "https://www.growagardencalculator.com/Images/papaya.webp",
+    "default_weight": 2.86,
+    "base_value": 315.73426
+  },
+  {
+    "name": "passionfruit",
+    "url": "https://www.growagardencalculator.com/Images/passionfruit.webp",
+    "default_weight": 2.867,
+    "base_value": 1117.5445
+  },
+  {
+    "name": "soulfruit",
+    "url": "https://www.growagardencalculator.com/Images/soulfruit.webp",
+    "default_weight": 23.75,
+    "base_value": 294.48421
+  },
+  {
+    "name": "cursedfruit",
+    "url": "https://www.growagardencalculator.com/Images/cursedfruit.webp",
+    "default_weight": 22.9,
+    "base_value": 655.02183
+  },
+  {
+    "name": "raspberry",
+    "url": "https://www.growagardencalculator.com/Images/raspberry.webp",
+    "default_weight": 0.71,
+    "base_value": 126.76056
+  },
+  {
+    "name": "peach",
+    "url": "https://www.growagardencalculator.com/Images/peach.webp",
+    "default_weight": 1.9,
+    "base_value": 142.63157
+  },
+  {
+    "name": "chocolatecarrot",
+    "url": "https://www.growagardencalculator.com/Images/chocolatecarrot.webp",
+    "default_weight": 0.262,
+    "base_value": 38015.26717
+  },
+  {
+    "name": "redlolipop",
+    "url": "https://www.growagardencalculator.com/Images/redlolipop.webp",
+    "default_weight": 3.799,
+    "base_value": 11871.91366
+  },
+  {
+    "name": "candysunflower",
+    "url": "https://www.growagardencalculator.com/Images/candysunflower.webp",
+    "default_weight": 1.428,
+    "base_value": 50560.22408
+  },
+  {
+    "name": "candyblossom",
+    "url": "https://www.growagardencalculator.com/Images/candyblossom.webp",
+    "default_weight": 2.85,
+    "base_value": 31666.66666
+  },
+  {
+    "name": "easteregg",
+    "url": "https://www.growagardencalculator.com/Images/easteregg.webp",
+    "default_weight": 2.85,
+    "base_value": 791.57894
+  },
+  {
+    "name": "cranberry",
+    "url": "https://www.growagardencalculator.com/Images/cranberry.webp",
+    "default_weight": 0.95,
+    "base_value": 1900
+  },
+  {
+    "name": "durian",
+    "url": "https://www.growagardencalculator.com/Images/durian.webp",
+    "default_weight": 7.6,
+    "base_value": 831.18421
+  },
+  {
+    "name": "eggplant",
+    "url": "https://www.growagardencalculator.com/Images/eggplant.webp",
+    "default_weight": 4.75,
+    "base_value": 1425.05263
+  },
+  {
+    "name": "lotus",
+    "url": "https://www.growagardencalculator.com/Images/lotus.webp",
+    "default_weight": 18.99,
+    "base_value": 807.95155
+  },
+  {
+    "name": "venusflytrap",
+    "url": "https://www.growagardencalculator.com/Images/venusflytrap.webp",
+    "default_weight": 9.5,
+    "base_value": 8074.94736
+  },
+  {
+    "name": "nightshade",
+    "url": "https://www.growagardencalculator.com/Images/nightshade.webp",
+    "default_weight": 0.48,
+    "base_value": 6581.25
+  },
+  {
+    "name": "mint",
+    "url": "https://www.growagardencalculator.com/Images/mint.webp",
+    "default_weight": 0.95,
+    "base_value": 4987.36842
+  },
+  {
+    "name": "glowshroom",
+    "url": "https://www.growagardencalculator.com/Images/glowshroom.webp",
+    "default_weight": 0.7,
+    "base_value": 387.14285
+  },
+  {
+    "name": "moonmelon",
+    "url": "https://www.growagardencalculator.com/Images/moonmelon.webp",
+    "default_weight": 7.6,
+    "base_value": 2137.5
+  },
+  {
+    "name": "starfruit",
+    "url": "https://www.growagardencalculator.com/Images/starfruit.webp",
+    "default_weight": 2.85,
+    "base_value": 4750.175438596491
+  },
+  {
+    "name": "moonflower",
+    "url": "https://www.growagardencalculator.com/Images/moonflower.webp",
+    "default_weight": 1.9,
+    "base_value": 4512.631578947368
+  },
+  {
+    "name": "bloodbanana",
+    "url": "https://www.growagardencalculator.com/Images/bloodbanana.webp",
+    "default_weight": 1.42,
+    "base_value": 3813.380281690141
+  },
+  {
+    "name": "moonglow",
+    "url": "https://www.growagardencalculator.com/Images/moonglow.webp",
+    "default_weight": 6.65,
+    "base_value": 2714.285714285714
+  },
+  {
+    "name": "moonblossom",
+    "url": "https://www.growagardencalculator.com/Images/moonblossom.webp",
+    "default_weight": 2.85,
+    "base_value": 21110.877192982458
+  },
+  {
+    "name": "celestiberry",
+    "url": "https://www.growagardencalculator.com/Images/celestiberry.webp",
+    "default_weight": 1.9,
+    "base_value": 4750
+  },
+  {
+    "name": "moonmango",
+    "url": "https://www.growagardencalculator.com/Images/moonmango.webp",
+    "default_weight": 14.25,
+    "base_value": 3166.6666666666665
+  },
+  {
+    "name": "hive",
+    "url": "https://www.growagardencalculator.com/Images/hive.webp",
+    "default_weight": 7.59,
+    "base_value": 7372.199999999999
+  },
+  {
+    "name": "nectarine",
+    "url": "https://www.growagardencalculator.com/Images/nectarine.webp",
+    "default_weight": 2.807,
+    "base_value": 12468.89918061988
+  },
+  {
+    "name": "rose",
+    "url": "https://www.growagardencalculator.com/Images/rose.webp",
+    "default_weight": 0.95,
+    "base_value": 4750.526315789474
+  },
+  {
+    "name": "foxglove",
+    "url": "https://www.growagardencalculator.com/Images/foxglove.webp",
+    "default_weight": 1.9,
+    "base_value": 9500
+  },
+  {
+    "name": "purpledahlia",
+    "url": "https://www.growagardencalculator.com/Images/purpledahlia.webp",
+    "default_weight": 11.4,
+    "base_value": 5937.543859649123
+  },
+  {
+    "name": "pinklily",
+    "url": "https://www.growagardencalculator.com/Images/pinklily.webp",
+    "default_weight": 5.699,
+    "base_value": 10293.560380768407
+  },
+  {
+    "name": "lilac",
+    "url": "https://www.growagardencalculator.com/Images/lilac.webp",
+    "default_weight": 2.846,
+    "base_value": 11099.086437104708
+  },
+  {
+    "name": "sunflower",
+    "url": "https://www.growagardencalculator.com/Images/sunflower.webp",
+    "default_weight": 15.65,
+    "base_value": 9199.999999999998
+  },
+  {
+    "name": "lavender",
+    "url": "https://www.growagardencalculator.com/Images/lavender.webp",
+    "default_weight": 0.25,
+    "base_value": 90252
+  },
+  {
+    "name": "nectarshade",
+    "url": "https://www.growagardencalculator.com/Images/nectarshade.webp",
+    "default_weight": 0.75,
+    "base_value": 60166.666666666664
+  },
+  {
+    "name": "manuka",
+    "url": "https://www.growagardencalculator.com/Images/manuka.webp",
+    "default_weight": 0.289,
+    "base_value": 78106.22837
+  },
+  {
+    "name": "dandelion",
+    "url": "https://www.growagardencalculator.com/Images/dandelion.webp",
+    "default_weight": 3.79,
+    "base_value": 11906.33245
+  },
+  {
+    "name": "lumira",
+    "url": "https://www.growagardencalculator.com/Images/lumira.webp",
+    "default_weight": 5.69,
+    "base_value": 13485.41335
+  },
+  {
+    "name": "honeysuckle",
+    "url": "https://www.growagardencalculator.com/Images/honeysuckle.webp",
+    "default_weight": 11.4,
+    "base_value": 7917.54386
+  },
+  {
+    "name": "beebalm",
+    "url": "https://www.growagardencalculator.com/Images/beebalm.webp",
+    "default_weight": 0.94,
+    "base_value": 17281.91489
+  },
+  {
+    "name": "nectarthorn",
+    "url": "https://www.growagardencalculator.com/Images/nectarthorn.webp",
+    "default_weight": 5.76,
+    "base_value": 5222.74306
+  },
+  {
+    "name": "suncoil",
+    "url": "https://www.growagardencalculator.com/Images/suncoil.webp",
+    "default_weight": 9.5,
+    "base_value": 7600
+  },
+  {
+    "name": "crocus",
+    "url": "https://www.growagardencalculator.com/Images/crocus.webp",
+    "default_weight": 0.285,
+    "base_value": 95000
+  },
+  {
+    "name": "succulent",
+    "url": "https://www.growagardencalculator.com/Images/succulent.webp",
+    "default_weight": 4.75,
+    "base_value": 4750.10526
+  },
+  {
+    "name": "violetcorn",
+    "url": "https://www.growagardencalculator.com/Images/violetcorn.webp",
+    "default_weight": 2.85,
+    "base_value": 15833.33333
+  },
+  {
+    "name": "bendboo",
+    "url": "https://www.growagardencalculator.com/Images/bendboo.webp",
+    "default_weight": 17.09,
+    "base_value": 8132.70919
+  },
+  {
+    "name": "cocovine",
+    "url": "https://www.growagardencalculator.com/Images/cocovine.webp",
+    "default_weight": 13.3,
+    "base_value": 4523.7594
+  },
+  {
+    "name": "dragonpepper",
+    "url": "https://www.growagardencalculator.com/Images/dragonpepper.webp",
+    "default_weight": 5.69,
+    "base_value": 14059.75395
+  },
+  {
+    "name": "wildcarrot",
+    "url": "https://www.growagardencalculator.com/Images/wildcarrot.webp",
+    "default_weight": 0.286,
+    "base_value": 78891.60839
+  },
+  {
+    "name": "pear",
+    "url": "https://www.growagardencalculator.com/Images/pear.webp",
+    "default_weight": 2.85,
+    "base_value": 6333.33333
+  },
+  {
+    "name": "cantaloupe",
+    "url": "https://www.growagardencalculator.com/Images/cantaloupe.webp",
+    "default_weight": 5.22,
+    "base_value": 5878.35249
+  },
+  {
+    "name": "parasolflower",
+    "url": "https://www.growagardencalculator.com/Images/parasolflower.webp",
+    "default_weight": 5.7,
+    "base_value": 31666.66667
+  },
+  {
+    "name": "rosydelight",
+    "url": "https://www.growagardencalculator.com/Images/rosydelight.webp",
+    "default_weight": 9.5,
+    "base_value": 6555.05263
+  },
+  {
+    "name": "elephantears",
+    "url": "https://www.growagardencalculator.com/Images/elephantears.webp",
+    "default_weight": 17.1,
+    "base_value": 4063.85965
+  },
+  {
+    "name": "peacelily",
+    "url": "https://www.growagardencalculator.com/Images/peacelily.webp",
+    "default_weight": 0.5,
+    "base_value": 33332
+  },
+  {
+    "name": "delphinium",
+    "url": "https://www.growagardencalculator.com/Images/delphinium.webp",
+    "default_weight": 0.285,
+    "base_value": 76000
+  },
+  {
+    "name": "travelersfruit",
+    "url": "https://www.growagardencalculator.com/Images/travelersfruit.webp",
+    "default_weight": 11.4,
+    "base_value": 4217.98246
+  },
+  {
+    "name": "lilyofthevalley",
+    "url": "https://www.growagardencalculator.com/Images/lilyofthevalley.webp",
+    "default_weight": 5.69,
+    "base_value": 7791.03691
+  },
+  {
+    "name": "aloevera",
+    "url": "https://www.growagardencalculator.com/Images/aloevera.webp",
+    "default_weight": 5.22,
+    "base_value": 10892.33716
+  },
+  {
+    "name": "guanabana",
+    "url": "https://www.growagardencalculator.com/Images/guanabana.webp",
+    "default_weight": 3.8,
+    "base_value": 16743.68421
+  },
+  {
+    "name": "libertylily",
+    "url": "https://www.growagardencalculator.com/Images/libertylily.webp",
+    "default_weight": 6.176,
+    "base_value": 4383.90544
+  },
+  {
+    "name": "fireworkflower",
+    "url": "https://www.growagardencalculator.com/Images/fireworkflower.webp",
+    "default_weight": 19,
+    "base_value": 7172.52632
+  },
+  {
+    "name": "boneblossom",
+    "url": "https://www.growagardencalculator.com/Images/boneblossom.webp",
+    "default_weight": 2.85,
+    "base_value": 63333.33333
+  },
+  {
+    "name": "stonebite",
+    "url": "https://www.growagardencalculator.com/Images/stonebite.webp",
+    "default_weight": 0.94,
+    "base_value": 33558.51064
+  },
+  {
+    "name": "paradisepetal",
+    "url": "https://www.growagardencalculator.com/Images/paradisepetal.webp",
+    "default_weight": 2.85,
+    "base_value": 9419.29825
+  },
+  {
+    "name": "horneddinoshroom",
+    "url": "https://www.growagardencalculator.com/Images/horneddinoshroom.webp",
+    "default_weight": 4.94,
+    "base_value": 13606.88259
+  },
+  {
+    "name": "boneboo",
+    "url": "https://www.growagardencalculator.com/Images/boneboo.webp",
+    "default_weight": 14.5,
+    "base_value": 9101.17241
+  },
+  {
+    "name": "fireflyfern",
+    "url": "https://www.growagardencalculator.com/Images/fireflyfern.webp",
+    "default_weight": 4.77,
+    "base_value": 13737.73585
+  },
+  {
+    "name": "fossilight",
+    "url": "https://www.growagardencalculator.com/Images/fossilight.webp",
+    "default_weight": 3.79,
+    "base_value": 20955.14512
+  },
+  {
+    "name": "horsetail",
+    "url": "https://www.growagardencalculator.com/Images/horsetail.webp",
+    "default_weight": 2.85,
+    "base_value": 9500
+  },
+  {
+    "name": "amberspine",
+    "url": "https://www.growagardencalculator.com/Images/amberspine.webp",
+    "default_weight": 5.7,
+    "base_value": 8708.42105
+  },
+  {
+    "name": "grandvolcania",
+    "url": "https://www.growagardencalculator.com/Images/grandvolcania.webp",
+    "default_weight": 6.65,
+    "base_value": 9575.33835
+  },
+  {
+    "name": "lingonberry",
+    "url": "https://www.growagardencalculator.com/Images/lingonberry.webp",
+    "default_weight": 0.485,
+    "base_value": 65129.89691
+  },
+  {
+    "name": "monoblooma",
+    "url": "https://www.growagardencalculator.com/Images/monoblooma.webp",
+    "default_weight": 0.477,
+    "base_value": 41624.73795
+  },
+  {
+    "name": "spikedmango",
+    "url": "https://www.growagardencalculator.com/Images/spikedmango.webp",
+    "default_weight": 14.25,
+    "base_value": 4275.01754
+  },
+  {
+    "name": "taroflower",
+    "url": "https://www.growagardencalculator.com/Images/taroflower.webp",
+    "default_weight": 6.64,
+    "base_value": 16310.24096
+  },
+  {
+    "name": "softsunshine",
+    "url": "https://www.growagardencalculator.com/Images/softsunshine.webp",
+    "default_weight": 1.9,
+    "base_value": 21375.26316
+  },
+  {
+    "name": "serenity",
+    "url": "https://www.growagardencalculator.com/Images/serenity.webp",
+    "default_weight": 0.24,
+    "base_value": 131616.66667
+  },
+  {
+    "name": "zenflare",
+    "url": "https://www.growagardencalculator.com/Images/zenflare.webp",
+    "default_weight": 1.34,
+    "base_value": 16838.0597
+  },
+  {
+    "name": "zenrocks",
+    "url": "https://www.growagardencalculator.com/Images/zenrocks.webp",
+    "default_weight": 17.1,
+    "base_value": 7916.66667
+  },
+  {
+    "name": "hinomai",
+    "url": "https://www.growagardencalculator.com/Images/hinomai.webp",
+    "default_weight": 9.5,
+    "base_value": 7600
+  },
+  {
+    "name": "mapleapple",
+    "url": "https://www.growagardencalculator.com/Images/mapleapple.webp",
+    "default_weight": 2.85,
+    "base_value": 18077.54386
+  }
+]

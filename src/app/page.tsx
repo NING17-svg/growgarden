@@ -25,7 +25,7 @@ export default function Home() {
                 Browse Guides
               </Link>
               <Link
-                href="/calculator"
+                href="/grow-a-garden-calculator"
                 className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 md:py-3 px-4 md:px-6 rounded-lg transition duration-300 text-center"
               >
                 Value Calculator

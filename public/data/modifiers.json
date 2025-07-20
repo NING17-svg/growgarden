@@ -1,0 +1,403 @@
+{
+  "modifiers": [
+    {
+      "id": "rainbow",
+      "name": "Rainbow",
+      "emoji": "🌈",
+      "multiplier": 50,
+      "description": "Obtained when a fruit grow or with a butterfly",
+      "category": "basic"
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "emoji": "🌟",
+      "multiplier": 20,
+      "description": "Obtained when a fruit grow or with a dragonfly",
+      "category": "basic"
+    },
+    {
+      "id": "shocked",
+      "name": "Shocked",
+      "emoji": "⚡",
+      "multiplier": 100,
+      "description": "From thunder weather or jandel event",
+      "category": "weather"
+    },
+    {
+      "id": "frozen",
+      "name": "Frozen",
+      "emoji": "🧊",
+      "multiplier": 10,
+      "description": "Wet & chilled creates 'Frozen'",
+      "category": "weather"
+    },
+    {
+      "id": "wet",
+      "name": "Wet",
+      "emoji": "💧",
+      "multiplier": 2,
+      "description": "Obtained during rain weather,with spray,or with pets",
+      "category": "weather"
+    },
+    {
+      "id": "chilled",
+      "name": "Chilled",
+      "emoji": "❄️",
+      "multiplier": 2,
+      "description": "Obtained during the snow weather or with sprays",
+      "category": "weather"
+    },
+    {
+      "id": "choc",
+      "name": "Choc",
+      "emoji": "🍫",
+      "multiplier": 2,
+      "description": "From sprinklers, spray or admin weather",
+      "category": "special"
+    },
+    {
+      "id": "moonlit",
+      "name": "Moonlit",
+      "emoji": "🌙",
+      "multiplier": 2,
+      "description": "From Night event",
+      "category": "event"
+    },
+    {
+      "id": "bloodlit",
+      "name": "Bloodlit",
+      "emoji": "🩸",
+      "multiplier": 4,
+      "description": "Blood Moon event",
+      "category": "event"
+    },
+    {
+      "id": "celestial",
+      "name": "Celestial",
+      "emoji": "☄️",
+      "multiplier": 120,
+      "description": "Meteor Shower event",
+      "category": "event"
+    },
+    {
+      "id": "disco",
+      "name": "Disco",
+      "emoji": "🥳",
+      "multiplier": 125,
+      "description": "Disco admin event,discobee,spray",
+      "category": "admin"
+    },
+    {
+      "id": "zombified",
+      "name": "Zombified",
+      "emoji": "🧟",
+      "multiplier": 25,
+      "description": "Chicken Zombie passive",
+      "category": "pet"
+    },
+    {
+      "id": "plasma",
+      "name": "Plasma",
+      "emoji": "⚡",
+      "multiplier": 5,
+      "description": "Admin Lazer Event",
+      "category": "admin"
+    },
+    {
+      "id": "voidtouched",
+      "name": "Void Touched",
+      "emoji": "🌌",
+      "multiplier": 135,
+      "description": "Admin Blackhole event",
+      "category": "admin"
+    },
+    {
+      "id": "pollinated",
+      "name": "Pollinated",
+      "emoji": "🐝",
+      "multiplier": 3,
+      "description": "Bee swarm/bees",
+      "category": "bee"
+    },
+    {
+      "id": "honeyglazed",
+      "name": "HoneyGlazed",
+      "emoji": "🍯",
+      "multiplier": 5,
+      "description": "Honey sprinkler/bear bee",
+      "category": "bee"
+    },
+    {
+      "id": "dawnbound",
+      "name": "Dawnbound",
+      "emoji": "☀️",
+      "multiplier": 150,
+      "description": "Sun god event,holding 4 sunflowers",
+      "category": "event"
+    },
+    {
+      "id": "heavenly",
+      "name": "Heavenly",
+      "emoji": "👼",
+      "multiplier": 5,
+      "description": "Jandel admin event",
+      "category": "admin"
+    },
+    {
+      "id": "cooked",
+      "name": "Cooked",
+      "emoji": "🍖",
+      "multiplier": 10,
+      "description": "With cooked owl",
+      "category": "pet"
+    },
+    {
+      "id": "burnt",
+      "name": "Burnt",
+      "emoji": "🍗",
+      "multiplier": 4,
+      "description": "From cooked owl pet or spray",
+      "category": "pet"
+    },
+    {
+      "id": "molten",
+      "name": "Molten",
+      "emoji": "🔥",
+      "multiplier": 25,
+      "description": "Admin Volcano event",
+      "category": "admin"
+    },
+    {
+      "id": "meteoric",
+      "name": "Meteoric",
+      "emoji": "🌠",
+      "multiplier": 125,
+      "description": "Meteor Strike event",
+      "category": "event"
+    },
+    {
+      "id": "windstruck",
+      "name": "Windstruck",
+      "emoji": "🌬️",
+      "multiplier": 2,
+      "description": "Gale/windy events or pterodactyl,spray",
+      "category": "weather"
+    },
+    {
+      "id": "alienlike",
+      "name": "Alienlike",
+      "emoji": "👽",
+      "multiplier": 100,
+      "description": "Alienlike admin event",
+      "category": "admin"
+    },
+    {
+      "id": "sundried",
+      "name": "Sundried",
+      "emoji": "☀️",
+      "multiplier": 85,
+      "description": "Heat Wave weather",
+      "category": "weather"
+    },
+    {
+      "id": "verdant",
+      "name": "Verdant",
+      "emoji": "🌿",
+      "multiplier": 4,
+      "description": "Scarlet Macaw,spray",
+      "category": "pet"
+    },
+    {
+      "id": "paradisal",
+      "name": "Paradisal",
+      "emoji": "🌴",
+      "multiplier": 100,
+      "description": "Sundried + Verdant",
+      "category": "combination"
+    },
+    {
+      "id": "twisted",
+      "name": "Twisted",
+      "emoji": "🌪️",
+      "multiplier": 5,
+      "description": "Tornado event or pterodactyl",
+      "category": "weather"
+    },
+    {
+      "id": "galactic",
+      "name": "Galactic",
+      "emoji": "🌌",
+      "multiplier": 120,
+      "description": "Admin event",
+      "category": "admin"
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "emoji": "🧊",
+      "multiplier": 90,
+      "description": "Aurora Borealis weather",
+      "category": "weather"
+    },
+    {
+      "id": "cloudtouched",
+      "name": "Cloudtouched",
+      "emoji": "🌸",
+      "multiplier": 5,
+      "description": "Hyacinth Macaw or spray",
+      "category": "pet"
+    },
+    {
+      "id": "drenched",
+      "name": "Drenched",
+      "emoji": "🌧️",
+      "multiplier": 5,
+      "description": "Tropical Rain weather",
+      "category": "weather"
+    },
+    {
+      "id": "fried",
+      "name": "Fried",
+      "emoji": "🍳",
+      "multiplier": 8,
+      "description": "Fried rain admin event",
+      "category": "admin"
+    },
+    {
+      "id": "amber",
+      "name": "Amber",
+      "emoji": "🧡",
+      "multiplier": 10,
+      "description": "Raptor or amber spray",
+      "category": "prehistoric"
+    },
+    {
+      "id": "oldamber",
+      "name": "OldAmber",
+      "emoji": "🟠",
+      "multiplier": 20,
+      "description": "Let \"Amber\" age",
+      "category": "prehistoric"
+    },
+    {
+      "id": "ancientamber",
+      "name": "AncientAmber",
+      "emoji": "🟠",
+      "multiplier": 50,
+      "description": "Let \"OldAmber\" age",
+      "category": "prehistoric"
+    },
+    {
+      "id": "sandy",
+      "name": "Sandy",
+      "emoji": "🏜️",
+      "multiplier": 3,
+      "description": "Sandstorm weather",
+      "category": "weather"
+    },
+    {
+      "id": "clay",
+      "name": "Clay",
+      "emoji": "🧱",
+      "multiplier": 5,
+      "description": "Mix wet and sandy",
+      "category": "combination"
+    },
+    {
+      "id": "ceramic",
+      "name": "Ceramic",
+      "emoji": "🏺",
+      "multiplier": 30,
+      "description": "Mix clay and burnt/sundried",
+      "category": "combination"
+    },
+    {
+      "id": "friendbound",
+      "name": "Friendbound",
+      "emoji": "👬",
+      "multiplier": 70,
+      "description": "Obtained by possesing linked friendpots",
+      "category": "special"
+    },
+    {
+      "id": "tempestous",
+      "name": "Tempestous",
+      "emoji": "💨",
+      "multiplier": 12,
+      "description": "Windstruck+Twisted",
+      "category": "combination"
+    },
+    {
+      "id": "infected",
+      "name": "Infected",
+      "emoji": "🧟",
+      "multiplier": 75,
+      "description": "Zombie Admin Mutation",
+      "category": "admin"
+    },
+    {
+      "id": "tranquil",
+      "name": "Tranquil",
+      "emoji": "🧘",
+      "multiplier": 20,
+      "description": "Zen Hourly Event mutation,Tranquil pets",
+      "category": "zen"
+    },
+    {
+      "id": "chakra",
+      "name": "Chakra",
+      "emoji": "☯️",
+      "multiplier": 8,
+      "description": "Kitsune pet ability",
+      "category": "zen"
+    },
+    {
+      "id": "foxfirechakra",
+      "name": "FoxfireChakra",
+      "emoji": "🦊",
+      "multiplier": null,
+      "description": "Very rare chance from kitsune pet , W.I.Px",
+      "category": "zen",
+      "note": "Multiplier not specified (W.I.P)"
+    },
+    {
+      "id": "toxic",
+      "name": "Toxic",
+      "emoji": "🟢",
+      "multiplier": 12,
+      "description": "Toxic rain weather event",
+      "category": "weather"
+    },
+    {
+      "id": "radioactive",
+      "name": "Radioactive",
+      "emoji": "☢️",
+      "multiplier": 80,
+      "description": "Carrot Rocket admin event",
+      "category": "admin"
+    }
+  ],
+  "formula": {
+    "description": "(Rainbow/Gold) × (1 + Sum of Modifiers − Number of Modifiers)",
+    "explanation": "Base multiplier (Rainbow 50x or Gold 20x) times the result of (1 + sum of all modifier multipliers - number of modifiers applied)"
+  },
+  "categories": {
+    "basic": "Basic mutations that can occur naturally",
+    "weather": "Weather-related mutations",
+    "event": "Special event mutations",
+    "admin": "Admin-triggered mutations",
+    "pet": "Pet-related mutations",
+    "bee": "Bee-related mutations",
+    "combination": "Mutations created by combining other mutations",
+    "prehistoric": "Prehistoric event mutations",
+    "zen": "Zen update mutations",
+    "special": "Special category mutations"
+  },
+  "metadata": {
+    "source": "https://www.growagardencalculator.com/",
+    "last_updated": "2024-12-19",
+    "total_modifiers": 46,
+    "note": "Data extracted from Grow a Garden Calculator website"
+  }
+}
