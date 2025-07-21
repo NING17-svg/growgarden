@@ -211,6 +211,7 @@ export default function Calculator() {
                             : 'border-gray-200 hover:border-green-300'
                         }`}
                       >
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                           src={`/data/images/${plant.name}.webp`}
                           alt={plant.name}
@@ -465,7 +466,7 @@ export default function Calculator() {
                     Final Value = (Base Value × Base Multiplier) × (1 + Sum of Modifiers - Number of Modifiers)
                   </p>
                   <ul className="text-sm space-y-1">
-                    <li><strong>Base Value:</strong> The plant's default selling price</li>
+                    <li><strong>Base Value:</strong> The plant&rsquo;s default selling price</li>
                     <li><strong>Base Multiplier:</strong> Rainbow (50x) or Gold (20x)</li>
                     <li><strong>Modifiers:</strong> Various mutations and effects</li>
                   </ul>
@@ -538,8 +539,8 @@ export default function Calculator() {
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Why Garden Value Matters</h3>
                 <p className="text-gray-600 mb-4">
                   Every gardener dreams of a bountiful harvest, but understanding the economic value of your crops 
-                  takes your gardening to the next level. Whether you&apos;re growing for your family table or considering 
-                  a market garden, knowing your garden&apos;s worth helps you make informed decisions.
+                  takes your gardening to the next level. Whether you&rsquo;re growing for your family table or considering 
+                  a market garden, knowing your garden&rsquo;s worth helps you make informed decisions.
                 </p>
                 <p className="text-gray-600">
                   Our grow a garden calculator bridges the gap between passion and profit, showing you which plants 
