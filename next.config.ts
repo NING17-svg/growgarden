@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
+import createMDX from '@next/mdx';
 
 const nextConfig: NextConfig = {
   /* 原有配置 */
+
+  // 启用MDX支持
+  pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
   
   // 添加域名规范化重定向
   async redirects() {
@@ -50,4 +54,13 @@ const nextConfig: NextConfig = {
   }
 };
 
-export default nextConfig;
+// 配置MDX
+const withMDX = createMDX({
+  // 添加markdown插件
+  options: {
+    remarkPlugins: [],
+    rehypePlugins: [],
+  },
+});
+
+export default withMDX(nextConfig);
