@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
   // 添加域名规范化重定向
   async redirects() {
     return [
+      // 将旧的计算器路径重定向到新路径
+      {
+        source: '/calculator',
+        destination: '/grow-a-garden-calculator',
+        permanent: true,
+      },
       // 将www子域名重定向到非www域名
       {
         source: '/:path*',

@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
     '/',
     '/guides',
+    '/grow-a-garden-calculator',
   ];
 
   // 动态攻略页面路径

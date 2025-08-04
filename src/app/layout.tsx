@@ -58,7 +58,7 @@ export default function RootLayout({
                 <li><Link href="/crops" className="hover:underline">Plants</Link></li>
                 <li><Link href="/pets" className="hover:underline">Pets</Link></li>
                 <li><Link href="/guides" className="hover:underline">Guides</Link></li>
-                <li><Link href="/calculator" className="hover:underline">Calculator</Link></li>
+                <li><Link href="/grow-a-garden-calculator" className="hover:underline">Calculator</Link></li>
                 <li><Link href="/codes" className="hover:underline">Codes</Link></li>
               </ul>
             </nav>
@@ -80,7 +80,7 @@ export default function RootLayout({
               <ul className="space-y-2">
                 <li><Link href="/crops" className="text-gray-300 hover:text-white">Plants Tier List</Link></li>
                 <li><Link href="/pets" className="text-gray-300 hover:text-white">Pet Tier List</Link></li>
-                <li><Link href="/calculator" className="text-gray-300 hover:text-white">Fruit Value Calculator</Link></li>
+                <li><Link href="/grow-a-garden-calculator" className="text-gray-300 hover:text-white">Fruit Value Calculator</Link></li>
                 <li><Link href="/privacy-policy" className="text-gray-300 hover:text-white">Privacy Policy</Link></li>
                 <li><Link href="/terms-of-service" className="text-gray-300 hover:text-white">Terms of Service</Link></li>
               </ul>
