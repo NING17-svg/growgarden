@@ -1,4 +1,24 @@
+import { Metadata } from 'next';
 import { getAllPosts } from '@/lib/mdx';
+
+// SEO metadata for guides page
+export const metadata: Metadata = {
+  title: 'Secret Grow A Garden Tips - Become Rich Fast! | growgarden.run',
+  description: '🚀 Unlock secret strategies to dominate Grow A Garden! Mutation tricks, best pets, money hacks & pro tips. From beginner to millionaire!',
+  keywords: 'Grow A Garden guides, Roblox farming guide, crop mutation guide, pet guide, game strategies, beginners guide',
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Secret Grow A Garden Tips - Become Rich Fast! | growgarden.run',
+    description: '🚀 Unlock secret strategies to dominate Grow A Garden! Mutation tricks, best pets, money hacks & pro tips.',
+    url: 'https://growgarden.run/guides',
+    siteName: 'Grow A Garden',
+    locale: 'en_US',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://growgarden.run/guides',
+  },
+};
 
 // 攻略页面组件
 export default function GuidesPage() {

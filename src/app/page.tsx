@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getAllPosts } from '@/lib/mdx';
+import { WebsiteSchema } from '@/components/StructuredData';
 
 // 首页组件
 export default function Home() {
@@ -7,6 +8,11 @@ export default function Home() {
   const latestPosts = getAllPosts('guides').slice(0, 3);
   return (
     <div className="flex flex-col">
+      <WebsiteSchema
+        url="https://growgarden.run"
+        name="Grow A Garden - Game Guide & Database"
+        description="Comprehensive guide, crop data, pet encyclopedia and advanced strategies for Roblox game Grow A Garden. Find growth times, selling prices and mutation conditions."
+      />
       {/* Hero Section with Game Logo */}
       <section className="relative bg-blue-100 py-12 md:py-16">
         <div className="container mx-auto px-4 flex flex-col items-center">

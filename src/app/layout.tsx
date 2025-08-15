@@ -17,18 +17,21 @@ const geistMono = Geist_Mono({
 
 // SEO metadata configuration
 export const metadata: Metadata = {
-  title: "Grow A Garden - Game Guide & Database | growgarden.run",
-  description: "Comprehensive guide, crop data, pet encyclopedia and advanced strategies for Roblox game Grow A Garden. Find growth times, selling prices and mutation conditions.",
+  title: "Grow A Garden Guide - Get Rich Fast! | growgarden.run",
+  description: "🌱 Master Grow A Garden & make millions! Complete beginner guide, secret mutation tips, best pets & money-making strategies. Start earning now!",
   keywords: "Grow A Garden, Roblox, guide, crops, pets, mutations, game guide",
   robots: "index, follow",
   viewport: "width=device-width, initial-scale=1",
   openGraph: {
-    title: "Grow A Garden - Game Guide & Database | growgarden.run",
-    description: "Comprehensive guide, crop data, pet encyclopedia and advanced strategies for Roblox game Grow A Garden.",
+    title: "Grow A Garden Guide - Get Rich Fast! | growgarden.run",
+    description: "🌱 Master Grow A Garden & make millions! Complete beginner guide, secret mutation tips, best pets & money-making strategies.",
     url: "https://growgarden.run",
     siteName: "Grow A Garden",
     locale: "en_US",
     type: "website",
+  },
+  alternates: {
+    canonical: "https://growgarden.run",
   },
 };
 

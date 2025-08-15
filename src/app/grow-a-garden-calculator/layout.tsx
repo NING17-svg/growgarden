@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Grow A Garden Calculator - Plant Value Calculator | growgarden.run',
-  description: 'Calculate exact plant values with mutations and modifiers in Grow A Garden. Free online calculator for Rainbow, Gold plants with all modifiers. Get precise selling prices instantly.',
+  title: 'FREE Plant Calculator - Max Your Profits! | growgarden.run',
+  description: '💰 Calculate EXACT plant values instantly! Rainbow & Gold mutations, all modifiers included. Maximize your Sheckles earnings in Grow A Garden!',
   keywords: 'Grow A Garden calculator, plant value calculator, Roblox calculator, mutation calculator, Rainbow plant value, Gold plant value, modifier calculator',
   robots: 'index, follow',
   openGraph: {
-    title: 'Grow A Garden Calculator - Plant Value Calculator | growgarden.run',
-    description: 'Calculate exact plant values with mutations and modifiers in Grow A Garden. Free online calculator for Rainbow, Gold plants with all modifiers.',
+    title: 'FREE Plant Calculator - Max Your Profits! | growgarden.run',
+    description: '💰 Calculate EXACT plant values instantly! Rainbow & Gold mutations, all modifiers included. Maximize your Sheckles earnings!',
     url: 'https://growgarden.run/grow-a-garden-calculator',
     siteName: 'Grow A Garden',
     locale: 'en_US',
