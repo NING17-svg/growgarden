@@ -1,19 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from 'next/link';
 import GoogleAnalytics from "../components/GoogleAnalytics";
 import GoogleAdsense from "../components/GoogleAdsense";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 // SEO metadata configuration
 export const metadata: Metadata = {
@@ -47,7 +36,7 @@ export default function RootLayout({
         <GoogleAdsense />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-b from-blue-100 to-blue-200`}
+        className="antialiased bg-gradient-to-b from-blue-100 to-blue-200 font-sans"
       >
         <header className="bg-green-600 text-white p-4 shadow-md">
           <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center">

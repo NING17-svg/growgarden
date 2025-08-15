@@ -64,7 +64,7 @@ export function ArticleSchema({
   author = "Grow A Garden Guide Team",
   image
 }: ArticleSchemaProps) {
-  const schema: any = {
+  const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": title,

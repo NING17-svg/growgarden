@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { MDXRemote } from 'next-mdx-remote/rsc';
+import Link from 'next/link';
 import { getPostBySlug, getAllSlugs } from '@/lib/mdx';
 import { mdxComponents } from '@/components/MDXComponents';
 import { GameGuideSchema, BreadcrumbSchema } from '@/components/StructuredData';
@@ -83,9 +84,9 @@ export default async function GuidePage({ params }: Props) {
         {/* 面包屑导航 */}
         <nav className="mb-6 text-sm text-gray-600">
           <ol className="flex items-center space-x-2">
-            <li><a href="/" className="hover:text-blue-600">Home</a></li>
+            <li><Link href="/" className="hover:text-blue-600">Home</Link></li>
             <li className="before:content-['/'] before:mx-2">
-              <a href="/guides" className="hover:text-blue-600">Guides</a>
+              <Link href="/guides" className="hover:text-blue-600">Guides</Link>
             </li>
             <li className="before:content-['/'] before:mx-2 text-gray-900">
               {post.metadata.title.replace(' | growgarden.run', '')}
